@@ -1,0 +1,5349 @@
+{
+  "AIRMASS": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "Air Mass according to Perez et al. 1990.",
+    "inputs": "",
+    "name": "Air Mass",
+    "source": "POWER",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "dimensionless"
+  },
+  "ALLSKY_KT": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "A fraction representing clearness of the atmosphere; the all sky insolation that is transmitted through the atmosphere to strike the surface of the earth divided by the average of top of the atmosphere total solar irradiance incident.",
+    "inputs": "",
+    "name": "All Sky Insolation Clearness Index",
+    "source": "POWER",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "dimensionless"
+  },
+  "ALLSKY_KT_MAX": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The maximum clearness of the atmosphere; the all sky insolation that is transmitted through the atmosphere to strike the surface of the earth divided by the average of top of the atmosphere total solar irradiance incident.",
+    "inputs": "",
+    "name": "All Sky Insolation Clearness Index Maximum",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "dimensionless"
+  },
+  "ALLSKY_KT_MIN": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The minimum clearness of the atmosphere; the all sky insolation that is transmitted through the atmosphere to strike the surface of the earth divided by the average of top of the atmosphere total solar irradiance incident.",
+    "inputs": "",
+    "name": "All Sky Insolation Clearness Index Minimum",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "dimensionless"
+  },
+  "ALLSKY_KT_SD": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The standard deviation of the clearness atmosphere; the all sky insolation that is transmitted through the atmosphere to strike the surface of the earth divided by the average of top of the atmosphere total solar irradiance incident.",
+    "inputs": "",
+    "name": "All Sky Insolation Clearness Index Standard Deviation",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "dimensionless"
+  },
+  "ALLSKY_NKT": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average zenith angle-independent expression of the all sky insolation clearness index.",
+    "inputs": "",
+    "name": "All Sky Normalized Insolation Clearness Index",
+    "source": "POWER",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "dimensionless"
+  },
+  "ALLSKY_SFC_LW_DWN": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The downward thermal infrared irradiance under all sky conditions reaching a horizontal plane the surface of the earth. Also known as Horizontal Infrared Radiation Intensity from Sky.",
+    "inputs": "",
+    "name": "All Sky Surface Longwave Downward Irradiance",
+    "source": "LOOKUP",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "W/m^2"
+  },
+  "ALLSKY_SFC_LW_DWN_MAX": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The maximum downward thermal infrared irradiance under all sky conditions reaching a horizontal plane the surface of the earth. Also known as Horizontal Infrared Radiation Intensity from Sky.",
+    "inputs": "",
+    "name": "All Sky Surface Longwave Downward Irradiance Maximum",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "W/m^2"
+  },
+  "ALLSKY_SFC_LW_DWN_MIN": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The minimum downward thermal infrared irradiance under all sky conditions reaching a horizontal plane the surface of the earth. Also known as Horizontal Infrared Radiation Intensity from Sky.",
+    "inputs": "",
+    "name": "All Sky Surface Longwave Downward Irradiance Minimum",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "W/m^2"
+  },
+  "ALLSKY_SFC_LW_DWN_SD": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The standard deviation of downward thermal infrared irradiance under all sky conditions reaching a horizontal plane the surface of the earth. Also known as Horizontal Infrared Radiation Intensity from Sky.",
+    "inputs": "",
+    "name": "All Sky Surface Longwave Downward Irradiance Standard Deviation",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "W/m^2"
+  },
+  "ALLSKY_SFC_LW_UP": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The upward thermal infrared irradiance under all sky conditions.",
+    "inputs": "",
+    "name": "All Sky Surface Longwave Upward Irradiance",
+    "source": "LOOKUP",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "ALLSKY_SFC_LW_UP_MAX": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The maximum upward thermal infrared irradiance under all sky conditions.",
+    "inputs": "",
+    "name": "All Sky Surface Longwave Upward Irradiance Maximum",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "ALLSKY_SFC_LW_UP_MIN": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The minimum upward thermal infrared irradiance under all sky conditions.",
+    "inputs": "",
+    "name": "All Sky Surface Longwave Upward Irradiance Minimum",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "ALLSKY_SFC_LW_UP_SD": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The standard deviation of upward thermal infrared irradiance under all sky conditions.",
+    "inputs": "",
+    "name": "All Sky Surface Longwave Upward Irradiance Standard Deviation",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "ALLSKY_SFC_PAR_TOT": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The total Photosynthetically Active Radiation (PAR) incident on a horizontal plane at the surface of the earth under all sky conditions.",
+    "inputs": "",
+    "name": "All Sky Surface PAR Total",
+    "source": "POWER",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "W/m^2"
+  },
+  "ALLSKY_SFC_PAR_TOT_MAX": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The maximum total Photosynthetically Active Radiation (PAR) incident on a horizontal plane at the surface of the earth under all sky conditions.",
+    "inputs": "",
+    "name": "All Sky Surface PAR Total Maximum",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "W/m^2"
+  },
+  "ALLSKY_SFC_PAR_TOT_MIN": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The minimum total Photosynthetically Active Radiation (PAR) incident on a horizontal plane at the surface of the earth under all sky conditions.",
+    "inputs": "",
+    "name": "All Sky Surface PAR Total Minimum",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "W/m^2"
+  },
+  "ALLSKY_SFC_PAR_TOT_SD": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The standard deviation of total Photosynthetically Active Radiation (PAR) incident on a horizontal plane at the surface of the earth under all sky conditions.",
+    "inputs": "",
+    "name": "All Sky Surface PAR Total Standard Deviation",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "W/m^2"
+  },
+  "ALLSKY_SFC_SW_DIFF": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The diffuse (light energy scattered out of the direction of the sun) solar irradiance incident on a horizontal plane at the surface of the earth under all sky conditions.",
+    "inputs": "",
+    "name": "All Sky Surface Shortwave Diffuse Irradiance",
+    "source": "CERES",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "ALLSKY_SFC_SW_DIFF_MAX": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The maximum diffuse (light energy scattered out of the direction of the sun) solar irradiance incident on a horizontal plane at the surface of the earth under all sky conditions.",
+    "inputs": "",
+    "name": "All Sky Surface Shortwave Diffuse Irradiance Maximum",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "ALLSKY_SFC_SW_DIFF_MIN": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The minimum diffuse (light energy scattered out of the direction of the sun) solar irradiance incident on a horizontal plane at the surface of the earth under all sky conditions.",
+    "inputs": "",
+    "name": "All Sky Surface Shortwave Diffuse Irradiance Minimum",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "ALLSKY_SFC_SW_DIFF_SD": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The standard deviation of diffuse (light energy scattered out of the direction of the sun) solar irradiance incident on a horizontal plane at the surface of the earth under all sky conditions.",
+    "inputs": "",
+    "name": "All Sky Surface Shortwave Diffuse Irradiance Standard Deviation",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "ALLSKY_SFC_SW_DIRH": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The direct solar irradiance incident on a horizontal plane at the surface of the earth under all sky conditions.",
+    "inputs": "",
+    "name": "All Sky Surface Shortwave Direct Horizontal Irradiance",
+    "source": "CERES",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "ALLSKY_SFC_SW_DIRH_MAX": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The maximum direct solar irradiance incident on a horizontal plane at the surface of the earth under all sky conditions.",
+    "inputs": "",
+    "name": "All Sky Surface Shortwave Direct Horizontal Irradiance Maximum",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "ALLSKY_SFC_SW_DIRH_MIN": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The minimum direct solar irradiance incident on a horizontal plane at the surface of the earth under all sky conditions.",
+    "inputs": "",
+    "name": "All Sky Surface Shortwave Direct Horizontal Irradiance Minimum",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "ALLSKY_SFC_SW_DIRH_SD": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The standard deviation of direct solar irradiance incident on a horizontal plane at the surface of the earth under all sky conditions.",
+    "inputs": "",
+    "name": "All Sky Surface Shortwave Direct Horizontal Irradiance Standard Deviation",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "ALLSKY_SFC_SW_DNI": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The direct solar irradiance incident to a horizontal plane normal (perpendicular) to the direction of the sun's position under all sky conditions.",
+    "inputs": "",
+    "name": "All Sky Surface Shortwave Downward Direct Normal Irradiance",
+    "source": "CERES",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "ALLSKY_SFC_SW_DNI_MAX": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The maximum direct solar irradiance incident to a horizontal plane normal (perpendicular) to the direction of the sun's position under all sky conditions.",
+    "inputs": "",
+    "name": "All Sky Surface Shortwave Downward Direct Normal Irradiance Maximum",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "ALLSKY_SFC_SW_DNI_MAX_RD": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The percentage of the difference of the maximum surface solar irradiance relative to the mean solar irradiance.",
+    "inputs": "ALLSKY_SFC_SW_DNI,ALLSKY_SFC_SW_DNI_MAX",
+    "name": "All Sky Surface Shortwave Downward Direct Normal Irradiance Maximum Relative Difference",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "%"
+  },
+  "ALLSKY_SFC_SW_DNI_MIN": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The minimum direct solar irradiance incident to a horizontal plane normal (perpendicular) to the direction of the sun's position under all sky conditions.",
+    "inputs": "",
+    "name": "All Sky Surface Shortwave Downward Direct Normal Irradiance Minimum",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "ALLSKY_SFC_SW_DNI_MIN_RD": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The percentage of the difference of the minumum surface solar irradiance relative to the mean solar irradiance.",
+    "inputs": "ALLSKY_SFC_SW_DNI,ALLSKY_SFC_SW_DNI_MIN",
+    "name": "All Sky Surface Shortwave Downward Direct Normal Irradiance Minimum Relative Difference",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "%"
+  },
+  "ALLSKY_SFC_SW_DNI_SD": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The standard deviation of direct solar irradiance incident to a horizontal plane normal (perpendicular) to the direction of the sun's position under all sky conditions.",
+    "inputs": "",
+    "name": "All Sky Surface Shortwave Downward Direct Normal Irradiance Standard Deviation",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "ALLSKY_SFC_SW_DWN": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The total solar irradiance incident (direct plus diffuse) on a horizontal plane at the surface of the earth under all sky conditions. An alternative term for the total solar irradiance is the \"Global Horizontal Irradiance\" or GHI.",
+    "inputs": "",
+    "name": "All Sky Surface Shortwave Downward Irradiance",
+    "source": "LOOKUP",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "ALLSKY_SFC_SW_DWN_00": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The total solar irradiance incident (direct plus diffuse) on a horizontal plane at the surface of the earth under all sky conditions at 00 GMT.",
+    "inputs": "",
+    "name": "All Sky Surface Shortwave Downward Irradiance at 00 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "ALLSKY_SFC_SW_DWN_01": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The total solar irradiance incident (direct plus diffuse) on a horizontal plane at the surface of the earth under all sky conditions at 01 GMT.",
+    "inputs": "",
+    "name": "All Sky Surface Shortwave Downward Irradiance at 01 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "ALLSKY_SFC_SW_DWN_02": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The total solar irradiance incident (direct plus diffuse) on a horizontal plane at the surface of the earth under all sky conditions at 02 GMT.",
+    "inputs": "",
+    "name": "All Sky Surface Shortwave Downward Irradiance at 02 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "ALLSKY_SFC_SW_DWN_03": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The total solar irradiance incident (direct plus diffuse) on a horizontal plane at the surface of the earth under all sky conditions at 03 GMT.",
+    "inputs": "",
+    "name": "All Sky Surface Shortwave Downward Irradiance at 03 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "ALLSKY_SFC_SW_DWN_04": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The total solar irradiance incident (direct plus diffuse) on a horizontal plane at the surface of the earth under all sky conditions at 04 GMT.",
+    "inputs": "",
+    "name": "All Sky Surface Shortwave Downward Irradiance at 04 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "ALLSKY_SFC_SW_DWN_05": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The total solar irradiance incident (direct plus diffuse) on a horizontal plane at the surface of the earth under all sky conditions at 05 GMT.",
+    "inputs": "",
+    "name": "All Sky Surface Shortwave Downward Irradiance at 05 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "ALLSKY_SFC_SW_DWN_06": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The total solar irradiance incident (direct plus diffuse) on a horizontal plane at the surface of the earth under all sky conditions at 06 GMT.",
+    "inputs": "",
+    "name": "All Sky Surface Shortwave Downward Irradiance at 06 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "ALLSKY_SFC_SW_DWN_07": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The total solar irradiance incident (direct plus diffuse) on a horizontal plane at the surface of the earth under all sky conditions at 07 GMT.",
+    "inputs": "",
+    "name": "All Sky Surface Shortwave Downward Irradiance at 07 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "ALLSKY_SFC_SW_DWN_08": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The total solar irradiance incident (direct plus diffuse) on a horizontal plane at the surface of the earth under all sky conditions at 08 GMT.",
+    "inputs": "",
+    "name": "All Sky Surface Shortwave Downward Irradiance at 08 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "ALLSKY_SFC_SW_DWN_09": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The total solar irradiance incident (direct plus diffuse) on a horizontal plane at the surface of the earth under all sky conditions at 09 GMT.",
+    "inputs": "",
+    "name": "All Sky Surface Shortwave Downward Irradiance at 09 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "ALLSKY_SFC_SW_DWN_10": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The total solar irradiance incident (direct plus diffuse) on a horizontal plane at the surface of the earth under all sky conditions at 10 GMT.",
+    "inputs": "",
+    "name": "All Sky Surface Shortwave Downward Irradiance at 10 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "ALLSKY_SFC_SW_DWN_11": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The total solar irradiance incident (direct plus diffuse) on a horizontal plane at the surface of the earth under all sky conditions at 11 GMT.",
+    "inputs": "",
+    "name": "All Sky Surface Shortwave Downward Irradiance at 11 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "ALLSKY_SFC_SW_DWN_12": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The total solar irradiance incident (direct plus diffuse) on a horizontal plane at the surface of the earth under all sky conditions at 12 GMT.",
+    "inputs": "",
+    "name": "All Sky Surface Shortwave Downward Irradiance at 12 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "ALLSKY_SFC_SW_DWN_13": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The total solar irradiance incident (direct plus diffuse) on a horizontal plane at the surface of the earth under all sky conditions at 13 GMT.",
+    "inputs": "",
+    "name": "All Sky Surface Shortwave Downward Irradiance at 13 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "ALLSKY_SFC_SW_DWN_14": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The total solar irradiance incident (direct plus diffuse) on a horizontal plane at the surface of the earth under all sky conditions at 14 GMT.",
+    "inputs": "",
+    "name": "All Sky Surface Shortwave Downward Irradiance at 14 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "ALLSKY_SFC_SW_DWN_15": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The total solar irradiance incident (direct plus diffuse) on a horizontal plane at the surface of the earth under all sky conditions at 15 GMT.",
+    "inputs": "",
+    "name": "All Sky Surface Shortwave Downward Irradiance at 15 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "ALLSKY_SFC_SW_DWN_16": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The total solar irradiance incident (direct plus diffuse) on a horizontal plane at the surface of the earth under all sky conditions at 16 GMT.",
+    "inputs": "",
+    "name": "All Sky Surface Shortwave Downward Irradiance at 16 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "ALLSKY_SFC_SW_DWN_17": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The total solar irradiance incident (direct plus diffuse) on a horizontal plane at the surface of the earth under all sky conditions at 17 GMT.",
+    "inputs": "",
+    "name": "All Sky Surface Shortwave Downward Irradiance at 17 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "ALLSKY_SFC_SW_DWN_18": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The total solar irradiance incident (direct plus diffuse) on a horizontal plane at the surface of the earth under all sky conditions at 18 GMT.",
+    "inputs": "",
+    "name": "All Sky Surface Shortwave Downward Irradiance at 18 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "ALLSKY_SFC_SW_DWN_19": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The total solar irradiance incident (direct plus diffuse) on a horizontal plane at the surface of the earth under all sky conditions at 19 GMT.",
+    "inputs": "",
+    "name": "All Sky Surface Shortwave Downward Irradiance at 19 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "ALLSKY_SFC_SW_DWN_20": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The total solar irradiance incident (direct plus diffuse) on a horizontal plane at the surface of the earth under all sky conditions at 20 GMT.",
+    "inputs": "",
+    "name": "All Sky Surface Shortwave Downward Irradiance at 20 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "ALLSKY_SFC_SW_DWN_21": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The total solar irradiance incident (direct plus diffuse) on a horizontal plane at the surface of the earth under all sky conditions at 21 GMT.",
+    "inputs": "",
+    "name": "All Sky Surface Shortwave Downward Irradiance at 21 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "ALLSKY_SFC_SW_DWN_22": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The total solar irradiance incident (direct plus diffuse) on a horizontal plane at the surface of the earth under all sky conditions at 22 GMT.",
+    "inputs": "",
+    "name": "All Sky Surface Shortwave Downward Irradiance at 22 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "ALLSKY_SFC_SW_DWN_23": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The total solar irradiance incident (direct plus diffuse) on a horizontal plane at the surface of the earth under all sky conditions at 23 GMT.",
+    "inputs": "",
+    "name": "All Sky Surface Shortwave Downward Irradiance at 23 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "ALLSKY_SFC_SW_DWN_HR": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The total solar irradiance incident (direct plus diffuse) on a horizontal plane at the surface of the earth under all sky conditions at GMT Times.",
+    "inputs": "",
+    "name": "All Sky Surface Shortwave Downward Irradiance at GMT Times",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "ALLSKY_SFC_SW_DWN_MAX": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The maximum total solar irradiance incident (direct plus diffuse) on a horizontal plane at the surface of the earth under all sky conditions.",
+    "inputs": "",
+    "name": "All Sky Surface Shortwave Downward Irradiance Maximum",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "ALLSKY_SFC_SW_DWN_MAX_RD": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The percentage of the difference of the maximum surface solar irradiance relative to the mean surface solar irradiance, under all sky conditions.",
+    "inputs": "ALLSKY_SFC_SW_DWN,ALLSKY_SFC_SW_DWN_MAX",
+    "name": "All Sky Surface Shortwave Downward Irradiance Maximum Relative Difference",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "%"
+  },
+  "ALLSKY_SFC_SW_DWN_MIN": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The minimum total solar irradiance incident (direct plus diffuse) on a horizontal plane at the surface of the earth under all sky conditions.",
+    "inputs": "",
+    "name": "All Sky Surface Shortwave Downward Irradiance Minimum",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "ALLSKY_SFC_SW_DWN_MIN_RD": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The percentage of the difference of the minumum surface solar irradiance relative to the mean surface solar irradiance, under all sky conditions.",
+    "inputs": "ALLSKY_SFC_SW_DWN,ALLSKY_SFC_SW_DWN_MIN",
+    "name": "All Sky Surface Shortwave Downward Irradiance Minimum Relative Difference",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "%"
+  },
+  "ALLSKY_SFC_SW_DWN_SD": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The standard deviation total solar irradiance incident (direct plus diffuse) on a horizontal plane at the surface of the earth under all sky conditions.",
+    "inputs": "",
+    "name": "All Sky Surface Shortwave Downward Irradiance Standard Deviation",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "ALLSKY_SFC_SW_UP": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The upward shortwave irradiance under all sky conditions.",
+    "inputs": "",
+    "name": "All Sky Surface Shortwave Upward Irradiance",
+    "source": "LOOKUP",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "ALLSKY_SFC_SW_UP_MAX": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The maximum upward shortwave irradiance under all sky conditions.",
+    "inputs": "",
+    "name": "All Sky Surface Shortwave Upward Irradiance Maximum",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "ALLSKY_SFC_SW_UP_MIN": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The minimum upward shortwave irradiance under all sky conditions.",
+    "inputs": "",
+    "name": "All Sky Surface Shortwave Upward Irradiance Minimum",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "ALLSKY_SFC_SW_UP_SD": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The standard deviation of upward shortwave irradiance under all sky conditions.",
+    "inputs": "",
+    "name": "All Sky Surface Shortwave Upward Irradiance Standard Deviation",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "ALLSKY_SFC_UVA": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The ultraviolet A (UVA 315nm-400nm) irradiance under all sky conditions.",
+    "inputs": "",
+    "name": "All Sky Surface UVA Irradiance",
+    "source": "CERES",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "W/m^2"
+  },
+  "ALLSKY_SFC_UVA_MAX": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The maximum ultraviolet A (UVA 315nm-400nm) irradiance under all sky conditions.",
+    "inputs": "",
+    "name": "All Sky Surface UVA Irradiance Maximum",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "W/m^2"
+  },
+  "ALLSKY_SFC_UVA_MIN": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The minimum ultraviolet A (UVA 315nm-400nm) irradiance under all sky conditions.",
+    "inputs": "",
+    "name": "All Sky Surface UVA Irradiance Minimum",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "W/m^2"
+  },
+  "ALLSKY_SFC_UVA_SD": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The standard deviation of ultraviolet A (UVA 315nm-400nm) irradiance under all sky conditions.",
+    "inputs": "",
+    "name": "All Sky Surface UVA Irradiance Standard Deviation",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "W/m^2"
+  },
+  "ALLSKY_SFC_UVB": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The ultraviolet B (UVB 280nm-315nm) irradiance under all sky conditions.",
+    "inputs": "",
+    "name": "All Sky Surface UVB Irradiance",
+    "source": "CERES",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "W/m^2"
+  },
+  "ALLSKY_SFC_UVB_MAX": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The maximum ultraviolet B (UVB 280nm-315nm) irradiance under all sky conditions.",
+    "inputs": "",
+    "name": "All Sky Surface UVB Irradiance Maximum",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "W/m^2"
+  },
+  "ALLSKY_SFC_UVB_MIN": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The minimum ultraviolet B (UVB 280nm-315nm) irradiance under all sky conditions.",
+    "inputs": "",
+    "name": "All Sky Surface UVB Irradiance Minimum",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "W/m^2"
+  },
+  "ALLSKY_SFC_UVB_SD": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The standard deviation of ultraviolet B (UVB 280nm-315nm) irradiance under all sky conditions.",
+    "inputs": "",
+    "name": "All Sky Surface UVB Irradiance Standard Deviation",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "W/m^2"
+  },
+  "ALLSKY_SFC_UV_INDEX": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The ultraviolet radiation exposure index.",
+    "inputs": "",
+    "name": "All Sky Surface UV Index",
+    "source": "CERES",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "dimensionless"
+  },
+  "ALLSKY_SFC_UV_INDEX_MAX": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The maximum ultraviolet radiation exposure index.",
+    "inputs": "",
+    "name": "All Sky Surface UV Index Maximum",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "dimensionless"
+  },
+  "ALLSKY_SFC_UV_INDEX_MIN": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The minimum ultraviolet radiation exposure index.",
+    "inputs": "",
+    "name": "All Sky Surface UV Index Minimum",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "dimensionless"
+  },
+  "ALLSKY_SFC_UV_INDEX_SD": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The standard deviation of ultraviolet radiation exposure index.",
+    "inputs": "",
+    "name": "All Sky Surface UV Index Standard Deviation",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "dimensionless"
+  },
+  "ALLSKY_SRF_ALB": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The all sky rate of reflectivity of the earth's surface; the ratio of the solar energy reflected by the surface of the earth compared to the total solar energy incident reaching the surface of the earth.",
+    "inputs": "",
+    "name": "All Sky Surface Albedo",
+    "source": "POWER",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "dimensionless"
+  },
+  "AOD_55": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The optical thickness at 0.55 um measured vertically; the component of the atmosphere to quantify the removal of radiant energy from an incident beam.",
+    "inputs": "",
+    "name": "Aerosol Optical Depth 55",
+    "source": "CERES",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "dimensionless"
+  },
+  "AOD_55_ADJ": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The adjusted optical thickness at 0.55 um measured vertically; the component of the atmosphere to quantify the removal of radiant energy from an incident beam.",
+    "inputs": "",
+    "name": "Adjusted Aerosol Optical Depth 55",
+    "source": "CERES",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "dimensionless"
+  },
+  "AOD_84": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The optical thickness at 0.84 um measured vertically; the component of the atmosphere to quantify the removal of radiant energy from an incident beam.",
+    "inputs": "",
+    "name": "Aerosol Optical Depth 84",
+    "source": "CERES",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "dimensionless"
+  },
+  "CDD0": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The daily accumulation of degrees when the daily mean temperature is above 0 degrees Celsius.",
+    "inputs": "",
+    "name": "Cooling Degree Days Above 0 C",
+    "source": "POWER",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "Degree C-d"
+  },
+  "CDD10": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The daily accumulation of degrees when the daily mean temperature is above 10 degrees Celsius.",
+    "inputs": "",
+    "name": "Cooling Degree Days Above 10 C",
+    "source": "POWER",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "Degree C-d"
+  },
+  "CDD18_3": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The daily accumulation of degrees when the daily mean temperature is above 18.3 degrees Celsius.",
+    "inputs": "",
+    "name": "Cooling Degree Days Above 18.3 C",
+    "source": "POWER",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "Degree C-d"
+  },
+  "CLOUD_AMT": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average percent of cloud amount during the temporal period.",
+    "inputs": "",
+    "name": "Cloud Amount",
+    "source": "LOOKUP",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "%"
+  },
+  "CLOUD_AMT_00": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average percent of cloud amount during daylight at 00 GMT.",
+    "inputs": "",
+    "name": "Cloud Amount at 00 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "%"
+  },
+  "CLOUD_AMT_01": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average percent of cloud amount during daylight at 01 GMT.",
+    "inputs": "",
+    "name": "Cloud Amount at 01 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "%"
+  },
+  "CLOUD_AMT_02": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average percent of cloud amount during daylight at 02 GMT.",
+    "inputs": "",
+    "name": "Cloud Amount at 02 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "%"
+  },
+  "CLOUD_AMT_03": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average percent of cloud amount during daylight at 03 GMT.",
+    "inputs": "",
+    "name": "Cloud Amount at 03 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "%"
+  },
+  "CLOUD_AMT_04": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average percent of cloud amount during daylight at 04 GMT.",
+    "inputs": "",
+    "name": "Cloud Amount at 04 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "%"
+  },
+  "CLOUD_AMT_05": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average percent of cloud amount during daylight at 05 GMT.",
+    "inputs": "",
+    "name": "Cloud Amount at 05 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "%"
+  },
+  "CLOUD_AMT_06": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average percent of cloud amount during daylight at 06 GMT.",
+    "inputs": "",
+    "name": "Cloud Amount at 06 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "%"
+  },
+  "CLOUD_AMT_07": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average percent of cloud amount during daylight at 07 GMT.",
+    "inputs": "",
+    "name": "Cloud Amount at 07 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "%"
+  },
+  "CLOUD_AMT_08": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average percent of cloud amount during daylight at 08 GMT.",
+    "inputs": "",
+    "name": "Cloud Amount at 08 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "%"
+  },
+  "CLOUD_AMT_09": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average percent of cloud amount during daylight at 09 GMT.",
+    "inputs": "",
+    "name": "Cloud Amount at 09 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "%"
+  },
+  "CLOUD_AMT_10": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average percent of cloud amount during daylight at 10 GMT.",
+    "inputs": "",
+    "name": "Cloud Amount at 10 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "%"
+  },
+  "CLOUD_AMT_11": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average percent of cloud amount during daylight at 11 GMT.",
+    "inputs": "",
+    "name": "Cloud Amount at 11 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "%"
+  },
+  "CLOUD_AMT_12": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average percent of cloud amount during daylight at 12 GMT.",
+    "inputs": "",
+    "name": "Cloud Amount at 12 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "%"
+  },
+  "CLOUD_AMT_13": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average percent of cloud amount during daylight at 13 GMT.",
+    "inputs": "",
+    "name": "Cloud Amount at 13 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "%"
+  },
+  "CLOUD_AMT_14": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average percent of cloud amount during daylight at 14 GMT.",
+    "inputs": "",
+    "name": "Cloud Amount at 14 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "%"
+  },
+  "CLOUD_AMT_15": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average percent of cloud amount during daylight at 15 GMT.",
+    "inputs": "",
+    "name": "Cloud Amount at 15 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "%"
+  },
+  "CLOUD_AMT_16": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average percent of cloud amount during daylight at 16 GMT.",
+    "inputs": "",
+    "name": "Cloud Amount at 16 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "%"
+  },
+  "CLOUD_AMT_17": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average percent of cloud amount during daylight at 17 GMT.",
+    "inputs": "",
+    "name": "Cloud Amount at 17 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "%"
+  },
+  "CLOUD_AMT_18": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average percent of cloud amount during daylight at 18 GMT.",
+    "inputs": "",
+    "name": "Cloud Amount at 18 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "%"
+  },
+  "CLOUD_AMT_19": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average percent of cloud amount during daylight at 19 GMT.",
+    "inputs": "",
+    "name": "Cloud Amount at 19 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "%"
+  },
+  "CLOUD_AMT_20": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average percent of cloud amount during daylight at 20 GMT.",
+    "inputs": "",
+    "name": "Cloud Amount at 20 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "%"
+  },
+  "CLOUD_AMT_21": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average percent of cloud amount during daylight at 21 GMT.",
+    "inputs": "",
+    "name": "Cloud Amount at 21 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "%"
+  },
+  "CLOUD_AMT_22": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average percent of cloud amount during daylight at 22 GMT.",
+    "inputs": "",
+    "name": "Cloud Amount at 22 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "%"
+  },
+  "CLOUD_AMT_23": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average percent of cloud amount during daylight at 23 GMT.",
+    "inputs": "",
+    "name": "Cloud Amount at 23 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "%"
+  },
+  "CLOUD_AMT_DAY": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average percent of cloud amount during daylight.",
+    "inputs": "",
+    "name": "Cloud Amount at Daytime",
+    "source": "POWER",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "%"
+  },
+  "CLOUD_AMT_HR": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The average percent of cloud amount during daylight at GMT Times.",
+    "inputs": "",
+    "name": "Cloud Amount at GMT Times",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "%"
+  },
+  "CLOUD_AMT_NIGHT": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average percent of cloud amount during nighttime.",
+    "inputs": "",
+    "name": "Cloud Amount at Nighttime",
+    "source": "POWER",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "%"
+  },
+  "CLOUD_OD": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The vertical optical thickness between the top and bottom of a cloud.",
+    "inputs": "",
+    "name": "Cloud Optical Visible Depth",
+    "source": "POWER",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "dimensionless"
+  },
+  "CLOUD_OD_00": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The vertical optical thickness between the top and bottom of a cloud at 00 GMT.",
+    "inputs": "",
+    "name": "Cloud Optical Visible Depth at 00 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "dimensionless"
+  },
+  "CLOUD_OD_01": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The vertical optical thickness between the top and bottom of a cloud at 01 GMT.",
+    "inputs": "",
+    "name": "Cloud Optical Visible Depth at 01 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "dimensionless"
+  },
+  "CLOUD_OD_02": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The vertical optical thickness between the top and bottom of a cloud at 02 GMT.",
+    "inputs": "",
+    "name": "Cloud Optical Visible Depth at 02 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "dimensionless"
+  },
+  "CLOUD_OD_03": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The vertical optical thickness between the top and bottom of a cloud at 03 GMT.",
+    "inputs": "",
+    "name": "Cloud Optical Visible Depth at 03 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "dimensionless"
+  },
+  "CLOUD_OD_04": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The vertical optical thickness between the top and bottom of a cloud at 04 GMT.",
+    "inputs": "",
+    "name": "Cloud Optical Visible Depth at 04 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "dimensionless"
+  },
+  "CLOUD_OD_05": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The vertical optical thickness between the top and bottom of a cloud at 05 GMT.",
+    "inputs": "",
+    "name": "Cloud Optical Visible Depth at 05 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "dimensionless"
+  },
+  "CLOUD_OD_06": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The vertical optical thickness between the top and bottom of a cloud at 06 GMT.",
+    "inputs": "",
+    "name": "Cloud Optical Visible Depth at 06 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "dimensionless"
+  },
+  "CLOUD_OD_07": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The vertical optical thickness between the top and bottom of a cloud at 07 GMT.",
+    "inputs": "",
+    "name": "Cloud Optical Visible Depth at 07 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "dimensionless"
+  },
+  "CLOUD_OD_08": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The vertical optical thickness between the top and bottom of a cloud at 08 GMT.",
+    "inputs": "",
+    "name": "Cloud Optical Visible Depth at 08 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "dimensionless"
+  },
+  "CLOUD_OD_09": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The vertical optical thickness between the top and bottom of a cloud at 09 GMT.",
+    "inputs": "",
+    "name": "Cloud Optical Visible Depth at 09 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "dimensionless"
+  },
+  "CLOUD_OD_10": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The vertical optical thickness between the top and bottom of a cloud at 10 GMT.",
+    "inputs": "",
+    "name": "Cloud Optical Visible Depth at 10 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "dimensionless"
+  },
+  "CLOUD_OD_11": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The vertical optical thickness between the top and bottom of a cloud at 11 GMT.",
+    "inputs": "",
+    "name": "Cloud Optical Visible Depth at 11 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "dimensionless"
+  },
+  "CLOUD_OD_12": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The vertical optical thickness between the top and bottom of a cloud at 12 GMT.",
+    "inputs": "",
+    "name": "Cloud Optical Visible Depth at 12 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "dimensionless"
+  },
+  "CLOUD_OD_13": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The vertical optical thickness between the top and bottom of a cloud at 13 GMT.",
+    "inputs": "",
+    "name": "Cloud Optical Visible Depth at 13 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "dimensionless"
+  },
+  "CLOUD_OD_14": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The vertical optical thickness between the top and bottom of a cloud at 14 GMT.",
+    "inputs": "",
+    "name": "Cloud Optical Visible Depth at 14 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "dimensionless"
+  },
+  "CLOUD_OD_15": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The vertical optical thickness between the top and bottom of a cloud at 15 GMT.",
+    "inputs": "",
+    "name": "Cloud Optical Visible Depth at 15 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "dimensionless"
+  },
+  "CLOUD_OD_16": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The vertical optical thickness between the top and bottom of a cloud at 16 GMT.",
+    "inputs": "",
+    "name": "Cloud Optical Visible Depth at 16 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "dimensionless"
+  },
+  "CLOUD_OD_17": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The vertical optical thickness between the top and bottom of a cloud at 17 GMT.",
+    "inputs": "",
+    "name": "Cloud Optical Visible Depth at 17 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "dimensionless"
+  },
+  "CLOUD_OD_18": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The vertical optical thickness between the top and bottom of a cloud at 18 GMT.",
+    "inputs": "",
+    "name": "Cloud Optical Visible Depth at 18 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "dimensionless"
+  },
+  "CLOUD_OD_19": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The vertical optical thickness between the top and bottom of a cloud at 19 GMT.",
+    "inputs": "",
+    "name": "Cloud Optical Visible Depth at 19 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "dimensionless"
+  },
+  "CLOUD_OD_20": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The vertical optical thickness between the top and bottom of a cloud at 20 GMT.",
+    "inputs": "",
+    "name": "Cloud Optical Visible Depth at 20 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "dimensionless"
+  },
+  "CLOUD_OD_21": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The vertical optical thickness between the top and bottom of a cloud at 21 GMT.",
+    "inputs": "",
+    "name": "Cloud Optical Visible Depth at 21 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "dimensionless"
+  },
+  "CLOUD_OD_22": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The vertical optical thickness between the top and bottom of a cloud at 22 GMT.",
+    "inputs": "",
+    "name": "Cloud Optical Visible Depth at 22 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "dimensionless"
+  },
+  "CLOUD_OD_23": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The vertical optical thickness between the top and bottom of a cloud at 23 GMT.",
+    "inputs": "",
+    "name": "Cloud Optical Visible Depth at 23 GMT",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "dimensionless"
+  },
+  "CLOUD_OD_HR": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The vertical optical thickness between the top and bottom of a cloud at GMT Times.",
+    "inputs": "",
+    "name": "Cloud Optical Visible Depth at GMT Times",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "dimensionless"
+  },
+  "CLRSKY_DAYS": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The number of Clear Sky Days if the daytime cloud amount is less than 10 percent.",
+    "inputs": "",
+    "name": "Clear Sky Day",
+    "source": "POWER",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Days"
+  },
+  "CLRSKY_KT": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "A fraction representing clearness of the atmosphere; the clear sky insolation that is transmitted through the atmosphere to strike the surface of the earth divided by the average of top of the atmosphere total solar irradiance incident.",
+    "inputs": "",
+    "name": "Clear Sky Insolation Clearness Index",
+    "source": "POWER",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "dimensionless"
+  },
+  "CLRSKY_KT_MAX": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The maximum clearness of the atmosphere; the clear sky insolation that is transmitted through the atmosphere to strike the surface of the earth divided by the average of top of the atmosphere total solar irradiance incident.",
+    "inputs": "",
+    "name": "Clear Sky Insolation Clearness Index Maximum",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "dimensionless"
+  },
+  "CLRSKY_KT_MIN": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The minimum clearness of the atmosphere; the clear sky insolation that is transmitted through the atmosphere to strike the surface of the earth divided by the average of top of the atmosphere total solar irradiance incident.",
+    "inputs": "",
+    "name": "Clear Sky Insolation Clearness Index Minimum",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "dimensionless"
+  },
+  "CLRSKY_KT_SD": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The standard deviation of the clearness atmosphere; the clear sky insolation that is transmitted through the atmosphere to strike the surface of the earth divided by the average of top of the atmosphere total solar irradiance incident.",
+    "inputs": "",
+    "name": "Clear Sky Insolation Clearness Index Standard Deviation",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "dimensionless"
+  },
+  "CLRSKY_NKT": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average zenith angle-independent expression of the clear sky insolation clearness index.",
+    "inputs": "",
+    "name": "Clear Sky Normalized Insolation Clearness Index",
+    "source": "POWER",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "dimensionless"
+  },
+  "CLRSKY_SFC_LW_DWN": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The downward thermal infrared irradiance under clear sky conditions reaching a horizontal plane the surface of the earth. Also known as Horizontal Infrared Radiation Intensity from Sky.",
+    "inputs": "",
+    "name": "Clear Sky Surface Longwave Downward Irradiance",
+    "source": "LOOKUP",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "W/m^2"
+  },
+  "CLRSKY_SFC_LW_DWN_MAX": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The maximum downward thermal infrared irradiance under clear sky conditions reaching a horizontal plane the surface of the earth. Also known as Horizontal Infrared Radiation Intensity from Sky.",
+    "inputs": "",
+    "name": "Clear Sky Surface Longwave Downward Irradiance Maximum",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "W/m^2"
+  },
+  "CLRSKY_SFC_LW_DWN_MIN": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The minimum downward thermal infrared irradiance under clear sky conditions reaching a horizontal plane the surface of the earth. Also known as Horizontal Infrared Radiation Intensity from Sky.",
+    "inputs": "",
+    "name": "Clear Sky Surface Longwave Downward Irradiance Minimum",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "W/m^2"
+  },
+  "CLRSKY_SFC_LW_DWN_SD": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The standard deviation of downward thermal infrared irradiance under clear sky conditions reaching a horizontal plane the surface of the earth. Also known as Horizontal Infrared Radiation Intensity from Sky.",
+    "inputs": "",
+    "name": "Clear Sky Surface Longwave Downward Irradiance Standard Deviation",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "W/m^2"
+  },
+  "CLRSKY_SFC_LW_UP": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The upward thermal infrared irradiance under clear sky conditions.",
+    "inputs": "",
+    "name": "Clear Sky Surface Longwave Upward Irradiance",
+    "source": "LOOKUP",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "CLRSKY_SFC_LW_UP_MAX": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The maximum upward thermal infrared irradiance under clear sky conditions.",
+    "inputs": "",
+    "name": "Clear Sky Surface Longwave Upward Irradiance Maximum",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "CLRSKY_SFC_LW_UP_MIN": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The minimum upward thermal infrared irradiance under clear sky conditions.",
+    "inputs": "",
+    "name": "Clear Sky Surface Longwave Upward Irradiance Minimum",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "CLRSKY_SFC_LW_UP_SD": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The standard deviation of upward thermal infrared irradiance under clear sky conditions",
+    "inputs": "",
+    "name": "Clear Sky Surface Longwave Upward Irradiance Standard Deviation",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "CLRSKY_SFC_PAR_TOT": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The total Photosynthetically Active Radiation (PAR) incident on a horizontal plane at the surface of the earth under clear sky conditions.",
+    "inputs": "",
+    "name": "Clear Sky Surface PAR Total",
+    "source": "POWER",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "W/m^2"
+  },
+  "CLRSKY_SFC_PAR_TOT_MAX": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The maximum total Photosynthetically Active Radiation (PAR) incident on a horizontal plane at the surface of the earth under clear sky conditions.",
+    "inputs": "",
+    "name": "Clear Sky Surface PAR Total Maximum",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "W/m^2"
+  },
+  "CLRSKY_SFC_PAR_TOT_MIN": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The minimum total Photosynthetically Active Radiation (PAR) incident on a horizontal plane at the surface of the earth under clear sky conditions.",
+    "inputs": "",
+    "name": "Clear Sky Surface PAR Total Minimum",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "W/m^2"
+  },
+  "CLRSKY_SFC_PAR_TOT_SD": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The standard deviation of total Photosynthetically Active Radiation (PAR) incident on a horizontal plane at the surface of the earth under clear sky conditions.",
+    "inputs": "",
+    "name": "Clear Sky Surface PAR Total Standard Deviation",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "W/m^2"
+  },
+  "CLRSKY_SFC_SW_DIFF": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The diffuse (light energy scattered out of the direction of the sun) solar irradiance incident on a horizontal plane at the surface of the earth under clear sky conditions.",
+    "inputs": "",
+    "name": "Clear Sky Surface Shortwave Downward Diffuse Horizontal Irradiance",
+    "source": "CERES",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "CLRSKY_SFC_SW_DIFF_MAX": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The maximum diffuse (light energy scattered out of the direction of the sun) solar irradiance incident on a horizontal plane at the surface of the earth under clear sky conditions.",
+    "inputs": "",
+    "name": "Clear Sky Surface Shortwave Downward Diffuse Horizontal Irradiance Maximum",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "CLRSKY_SFC_SW_DIFF_MIN": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The minimum diffuse (light energy scattered out of the direction of the sun) solar irradiance incident on a horizontal plane at the surface of the earth under clear sky conditions.",
+    "inputs": "",
+    "name": "Clear Sky Surface Shortwave Downward Diffuse Horizontal Irradiance Minimum",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "CLRSKY_SFC_SW_DIFF_SD": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The standard deviation of diffuse (light energy scattered out of the direction of the sun) solar irradiance incident on a horizontal plane at the surface of the earth under clear sky conditions.",
+    "inputs": "",
+    "name": "Clear Sky Surface Shortwave Downward Diffuse Horizontal Irradiance Standard Deviation",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "CLRSKY_SFC_SW_DIRH": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The direct solar irradiance incident on a horizontal plane at the surface of the earth under clear sky conditions.",
+    "inputs": "",
+    "name": "Clear Sky Surface Shortwave Direct Horizontal Irradiance",
+    "source": "CERES",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "CLRSKY_SFC_SW_DIRH_MAX": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The maximum direct solar irradiance incident on a horizontal plane at the surface of the earth under clear sky conditions.",
+    "inputs": "",
+    "name": "Clear Sky Surface Shortwave Direct Horizontal Irradiance Maximum",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "CLRSKY_SFC_SW_DIRH_MIN": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The minimum direct solar irradiance incident on a horizontal plane at the surface of the earth under clear sky conditions.",
+    "inputs": "",
+    "name": "Clear Sky Surface Shortwave Direct Horizontal Irradiance Minimum",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "CLRSKY_SFC_SW_DIRH_SD": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The standard deviation of direct solar irradiance incident on a horizontal plane at the surface of the earth under clear sky conditions.",
+    "inputs": "",
+    "name": "Clear Sky Surface Shortwave Direct Horizontal Irradiance Standard Deviation",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "CLRSKY_SFC_SW_DNI": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The direct solar irradiance incident to a horizontal plane normal (perpendicular) to the direction of the sun's position under clear sky conditions.",
+    "inputs": "",
+    "name": "Clear Sky Surface Shortwave Downward Direct Normal Irradiance",
+    "source": "CERES",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "CLRSKY_SFC_SW_DNI_MAX": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The maximum direct solar irradiance incident to a horizontal plane normal (perpendicular) to the direction of the sun's position under clear sky conditions.",
+    "inputs": "",
+    "name": "Clear Sky Surface Shortwave Downward Direct Normal Irradiance Maximum",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "CLRSKY_SFC_SW_DNI_MIN": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The minimum direct solar irradiance incident to a horizontal plane normal (perpendicular) to the direction of the sun's position under clear sky conditions.",
+    "inputs": "",
+    "name": "Clear Sky Surface Shortwave Downward Direct Normal Irradiance Minimum",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "CLRSKY_SFC_SW_DNI_SD": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The standard deviation of direct solar irradiance incident to a horizontal plane normal (perpendicular) to the direction of the sun's position under clear sky conditions.",
+    "inputs": "",
+    "name": "Clear Sky Surface Shortwave Downward Direct Normal Irradiance",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "CLRSKY_SFC_SW_DWN": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The total solar irradiance incident (direct plus diffuse) on a horizontal plane at the surface of the earth under clear sky conditions. An alternative term for the total solar irradiance is the \"Global Horizontal Irradiance\" or GHI.",
+    "inputs": "",
+    "name": "Clear Sky Surface Shortwave Downward Irradiance",
+    "source": "LOOKUP",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "CLRSKY_SFC_SW_DWN_MAX": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The maximum total solar irradiance incident (direct plus diffuse) on a horizontal plane at the surface of the earth under clear sky conditions.",
+    "inputs": "",
+    "name": "Clear Sky Surface Shortwave Downward Irradiance Maximum",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "CLRSKY_SFC_SW_DWN_MIN": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The minimum total solar irradiance incident (direct plus diffuse) on a horizontal plane at the surface of the earth under clear sky conditions.",
+    "inputs": "",
+    "name": "Clear Sky Surface Shortwave Downward Irradiance Minimum",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "CLRSKY_SFC_SW_DWN_SD": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The standard deviation of total solar irradiance incident (direct plus diffuse) on a horizontal plane at the surface of the earth under clear sky conditions.",
+    "inputs": "",
+    "name": "Clear Sky Surface Shortwave Downward Irradiance Standard Deviation",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "CLRSKY_SFC_SW_UP": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The upward shortwave irradiance under clearsky conditions.",
+    "inputs": "",
+    "name": "Clear Sky Surface Shortwave Upward Irradiance",
+    "source": "LOOKUP",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "CLRSKY_SFC_SW_UP_MAX": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The maximum upward shortwave irradiance under clearsky conditions.",
+    "inputs": "",
+    "name": "Clear Sky Surface Shortwave Upward Irradiance Maximum",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "CLRSKY_SFC_SW_UP_MIN": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The minimum upward shortwave irradiance under clearsky conditions.",
+    "inputs": "",
+    "name": "Clear Sky Surface Shortwave Upward Irradiance Minimum",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "CLRSKY_SFC_SW_UP_SD": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The standard deviation of upward shortwave irradiance under clearsky conditions.",
+    "inputs": "",
+    "name": "Clear Sky Surface Shortwave Upward Irradiance Standard Deviation",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "CLRSKY_SRF_ALB": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The clear sky rate of reflectivity of the earth's surface; the ratio of the solar energy reflected by the surface of the earth compared to the total solar energy incident reaching the surface of the earth.",
+    "inputs": "",
+    "name": "Clear Sky Surface Albedo",
+    "source": "POWER",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "dimensionless"
+  },
+  "DIFFUSE_ILLUMINANCE": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average amount of illuminance received directly from the solar disk on a surface perpendicular to the sun's rays.",
+    "inputs": "",
+    "name": "Diffuse Illuminance",
+    "source": "POWER",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "lux"
+  },
+  "DIRECT_ILLUMINANCE": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average amount of illuminance received from the sky (excluding the solar disk) on a horizontal plane.",
+    "inputs": "",
+    "name": "Direct Illuminance",
+    "source": "POWER",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "lux"
+  },
+  "DISPH": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The height at which the mean velocity is zero due to large obstacles such as buildings/canopy.",
+    "inputs": "",
+    "name": "Zero Plane Displacement Height",
+    "source": "MERRA2",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "m"
+  },
+  "EQUIV_NO_SUN_CONSEC_01": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The solar irradiance deficit over a consecutive 1-day period in a given month; the difference between the climatological averaged monthly value over the p-day period and the minimum of the climatological averaged values over the same p-day period in the given month. The monthly average for the p-day period is calculated as a multiyear average over the climatological period given in the header section of the data file.",
+    "inputs": "",
+    "name": "Equivalent No-Sun Days Over A Consecutive 1-day Period",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Days"
+  },
+  "EQUIV_NO_SUN_CONSEC_03": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The solar irradiance deficit over a consecutive 3-day period in a given month; the difference between the climatological averaged monthly value over the p-day period and the minimum of the climatological averaged values over the same p-day period in the given month. The monthly average for the p-day period is calculated as a multiyear average over the climatological period given in the header section of the data file.",
+    "inputs": "",
+    "name": "Equivalent No-Sun Days Over A Consecutive 3-day Period",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Days"
+  },
+  "EQUIV_NO_SUN_CONSEC_07": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The solar irradiance deficit over a consecutive 7-day period in a given month; the difference between the climatological averaged monthly value over the p-day period and the minimum of the climatological averaged values over the same p-day period in the given month. The monthly average for the p-day period is calculated as a multiyear average over the climatological period given in the header section of the data file.",
+    "inputs": "",
+    "name": "Equivalent No-Sun Days Over A Consecutive 7-day Period",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Days"
+  },
+  "EQUIV_NO_SUN_CONSEC_14": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The solar irradiance deficit over a consecutive 14-day period in a given month; the difference between the climatological averaged monthly value over the p-day period and the minimum of the climatological averaged values over the same p-day period in the given month. The monthly average for the p-day period is calculated as a multiyear average over the climatological period given in the header section of the data file.",
+    "inputs": "",
+    "name": "Equivalent No-Sun Days Over A Consecutive 14-day Period",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Days"
+  },
+  "EQUIV_NO_SUN_CONSEC_21": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The solar irradiance deficit over a consecutive 21-day period in a given month; the difference between the climatological averaged monthly value over the p-day period and the minimum of the climatological averaged values over the same p-day period in the given month. The monthly average for the p-day period is calculated as a multiyear average over the climatological period given in the header section of the data file.",
+    "inputs": "",
+    "name": "Equivalent No-Sun Days Over A Consecutive 21-day Period",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Days"
+  },
+  "EQUIV_NO_SUN_CONSEC_MONTH": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "Equivalent number of NO-SUN or BLACK days is the number of days in a given month that a backup storage system must provide energy to account for the expected days without solar insolation over a month period. The number of days is based upon an estimate of the solar irradiance deficit below the expected climatological monthly averaged value. The climatological period is given in the header section of the data file.",
+    "inputs": "",
+    "name": "Equivalent No-Sun Days Over A Month Period",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Days"
+  },
+  "EVLAND": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The evaporation over land at the surface of the earth.",
+    "inputs": "",
+    "name": "Evaporation Land",
+    "source": "MERRA2",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "kg m-2 s-1"
+  },
+  "EVPTRNS": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The evapotranspiration energy flux at the surface of the earth.",
+    "inputs": "",
+    "name": "Evapotranspiration Energy Flux",
+    "source": "MERRA2",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "kW-hr/m^2/day"
+  },
+  "FROST_DAYS": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "A frost day occurs when the 2m temperature cools to the dew point temperature and both are less than 0 C or 32 F.",
+    "inputs": "",
+    "name": "Frost Days",
+    "source": "POWER",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "Days"
+  },
+  "FRSEAICE": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The fraction of ocean covered by sea ice.",
+    "inputs": "",
+    "name": "Ice Covered Fraction",
+    "source": "MERRA2",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "1"
+  },
+  "FRSNO": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The fraction of land covered by snowfall.",
+    "inputs": "",
+    "name": "Land Snowcover Fraction",
+    "source": "MERRA2",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "1"
+  },
+  "GLOBAL_ILLUMINANCE": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average total amount of direct and diffuse illuminance on a horizontal plane.",
+    "inputs": "",
+    "name": "Global Illuminance",
+    "source": "POWER",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "lux"
+  },
+  "GWETPROF": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The percent of profile soil moisture a value of 0 indicates a completely water-free soil and a value of 1 indicates a completely saturated soil; where profile is the layer from the surface down to the bedrock.",
+    "inputs": "",
+    "name": "Profile Soil Moisture",
+    "source": "MERRA2",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "1"
+  },
+  "GWETROOT": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The percent of root zone soil wetness a value of 0 indicates a completely water-free soil and a value of 1 indicates a completely saturated soil; where root zone is the layer from the surfice 0 cm to 100 cm below grade.",
+    "inputs": "",
+    "name": "Root Zone Soil Wetness",
+    "source": "MERRA2",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "1"
+  },
+  "GWETTOP": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The percent of soil moisture a value of 0 indicates a completely water-free soil and a value of 1 indicates a completely saturated soil; where surface is the layer from the surfice 0 cm to 5 cm below grade.",
+    "inputs": "",
+    "name": "Surface Soil Wetness",
+    "source": "MERRA2",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "1"
+  },
+  "HDD0": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The daily accumulation of degrees when the daily mean temperature is below 0 degrees Celsius.",
+    "inputs": "",
+    "name": "Heating Degree Days Below 0 C",
+    "source": "POWER",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "Degree C-d"
+  },
+  "HDD10": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The daily accumulation of degrees when the daily mean temperature is below 10 degrees Celsius.",
+    "inputs": "",
+    "name": "Heating Degree Days Below 10 C",
+    "source": "POWER",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "Degree C-d"
+  },
+  "HDD18_3": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The daily accumulation of degrees when the daily mean temperature is below 15.3 degrees Celsius.",
+    "inputs": "",
+    "name": "Heating Degree Days Below 18.3 C",
+    "source": "POWER",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "Degree C-d"
+  },
+  "INSOL_CONSEC_01": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "Available Surplus Insolation Over A Consecutive 1-day period in a particular month is given as the irradiance value between the maximum monthly average value over the p-day period and the monthly average value for the p-day period. The p-day average is computed as a running average within each month. The monthly average for the p-day period is calculated as a multiyear average over the climatological period given in the header section of the data file.",
+    "inputs": "",
+    "name": "Surplus Insolation Over A Consecutive 1-day Period",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "INSOL_CONSEC_01_MIN": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The minimum available insolation over a consecutive 1-day period in a particular month is given as the irradiance value between the minimum monthly average value over the p-day period and the monthly average value for the p-day period. The p-day average is computed as a running average within each month. The monthly average for the p-day period is calculated as a multiyear average over the climatological period given in the header section of the data file.",
+    "inputs": "",
+    "name": "Minimum Insolation Over A Consecutive 1-day Period",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "INSOL_CONSEC_03": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "Available Surplus Insolation Over A Consecutive 3-day period in a particular month is given as the irradiance value between the maximum monthly average value over the p-day period and the monthly average value for the p-day period. The p-day average is computed as a running average within each month. The monthly average for the p-day period is calculated as a multiyear average over the climatological period given in the header section of the data file.",
+    "inputs": "",
+    "name": "Surplus Insolation Over A Consecutive 3-day Period",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "INSOL_CONSEC_03_MIN": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The minimum available insolation over a consecutive 3-day period in a particular month is given as the irradiance value between the minimum monthly average value over the p-day period and the monthly average value for the p-day period. The p-day average is computed as a running average within each month. The monthly average for the p-day period is calculated as a multiyear average over the climatological period given in the header section of the data file.",
+    "inputs": "",
+    "name": "Minimum Insolation Over A Consecutive 3-day Period",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "INSOL_CONSEC_07": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "Available Surplus Insolation Over A Consecutive 7-day period in a particular month is given as the irradiance value between the maximum monthly average value over the p-day period and the monthly average value for the p-day period. The p-day average is computed as a running average within each month. The monthly average for the p-day period is calculated as a multiyear average over the climatological period given in the header section of the data file.",
+    "inputs": "",
+    "name": "Surplus Insolation Over A Consecutive 7-day Period",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "INSOL_CONSEC_07_MIN": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The minimum available insolation over a consecutive 7-day period in a particular month is given as the irradiance value between the minimum monthly average value over the p-day period and the monthly average value for the p-day period. The p-day average is computed as a running average within each month. The monthly average for the p-day period is calculated as a multiyear average over the climatological period given in the header section of the data file.",
+    "inputs": "",
+    "name": "Minimum Insolation Over A Consecutive 7-day Period",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "INSOL_CONSEC_14": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "Available Surplus Insolation Over A Consecutive 14-day period in a particular month is given as the irradiance value between the maximum monthly average value over the p-day period and the monthly average value for the p-day period. The p-day average is computed as a running average within each month. The monthly average for the p-day period is calculated as a multiyear average over the climatological period given in the header section of the data file.",
+    "inputs": "",
+    "name": "Surplus Insolation Over A Consecutive 14-day Period",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "INSOL_CONSEC_14_MIN": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The minimum available insolation over a consecutive 14-day period in a particular month is given as the irradiance value between the minimum monthly average value over the p-day period and the monthly average value for the p-day period. The p-day average is computed as a running average within each month. The monthly average for the p-day period is calculated as a multiyear average over the climatological period given in the header section of the data file.",
+    "inputs": "",
+    "name": "Minimum Insolation Over A Consecutive 14-day Period",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "INSOL_CONSEC_21": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "Available Surplus Insolation Over A Consecutive 21-day period in a particular month is given as the irradiance value between the maximum monthly average value over the p-day period and the monthly average value for the p-day period. The p-day average is computed as a running average within each month. The monthly average for the p-day period is calculated as a multiyear average over the climatological period given in the header section of the data file.",
+    "inputs": "",
+    "name": "Surplus Insolation Over A Consecutive 21-day Period",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "INSOL_CONSEC_21_MIN": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The minimum available insolation over a consecutive 21-day period in a particular month is given as the irradiance value between the minimum monthly average value over the p-day period and the monthly average value for the p-day period. The p-day average is computed as a running average within each month. The monthly average for the p-day period is calculated as a multiyear average over the climatological period given in the header section of the data file.",
+    "inputs": "",
+    "name": "Minimum Insolation Over A Consecutive 21-day Period",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "INSOL_CONSEC_MONTH": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "Available Surplus Insolation Over A month period in a particular month is given as the irradiance value between the maximum monthly average value over the p-day period and the monthly average value for the p-day period. The p-day average is computed as a running average within each month. The monthly average for the p-day period is calculated as a multiyear average over the climatological period given in the header section of the data file.",
+    "inputs": "",
+    "name": "Surplus Insolation Over A Month Period",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "INSOL_CONSEC_MONTH_MIN": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The minimum available insolation over a month period in a particular month is given as the irradiance value between the minimum monthly average value over the p-day period and the monthly average value for the p-day period. The p-day average is computed as a running average within each month. The monthly average for the p-day period is calculated as a multiyear average over the climatological period given in the header section of the data file.",
+    "inputs": "",
+    "name": "Minimum Insolation Over A Month Period",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "MAX_EQUIV_NO_SUN_DEFICIT": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The worse Consecutive-Day Deficits below Expected Values.",
+    "inputs": "",
+    "name": "Maximum Equivalent No-Sun Days Deficit",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Days"
+  },
+  "MIDDAY_INSOL": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The total amount of solar irradiance (i.e. direct plus diffuse) incident on a horizontal plane at the earth's surface during the solar noon hour midday period.",
+    "inputs": "",
+    "name": "Midday Insolation Incident",
+    "source": "POWER",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "MIDDAY_INSOL_MAX": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The maximum total amount of solar irradiance (i.e. direct plus diffuse) incident on a horizontal plane at the earth's surface during the solar noon hour midday period.",
+    "inputs": "",
+    "name": "Midday Insolation Incident Maximum",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "MIDDAY_INSOL_MIN": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The minimum total amount of solar irradiance (i.e. direct plus diffuse) incident on a horizontal plane at the earth's surface during the solar noon hour midday period.",
+    "inputs": "",
+    "name": "Midday Insolation Incident Minimum",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "MIDDAY_INSOL_SD": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The standard deviation of the total amount of solar irradiance (i.e. direct plus diffuse) incident on a horizontal plane at the earth's surface during the solar noon hour midday period.",
+    "inputs": "",
+    "name": "Midday Insolation Incident Standard Deviation",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "NO_SUN_BLACKDAYS_MAX": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The maximum number of consecutive days that a backup storage system must provide energy to account for the expected days without solar insolation. The climatologically averaged value is over the time period given in the header section of the data file.",
+    "inputs": "",
+    "name": "Equivalent No-Sun Days",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Days"
+  },
+  "PBLTOP": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The pressure at the top of the planet boundary layer.",
+    "inputs": "",
+    "name": "Planetary Boundary Layer Top Pressure",
+    "source": "MERRA2",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "kPa"
+  },
+  "PRECSNO": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The snow precipitation at the surface of the earth.",
+    "inputs": "",
+    "name": "Snow Precipitation",
+    "source": "MERRA2",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "mm"
+  },
+  "PRECSNOLAND": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The snow precipitation only over land at the surface of the earth.",
+    "inputs": "",
+    "name": "Snow Precipitation Land",
+    "source": "MERRA2",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "mm"
+  },
+  "PRECSNOLAND_SUM": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The snow precipitation sum over land at the surface of the earth.",
+    "inputs": "",
+    "name": "Snow Precipitation Land Sum",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "mm"
+  },
+  "PRECTOTCORR": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The bias corrected average of total precipitation at the surface of the earth in water mass (includes water content in snow).",
+    "inputs": "",
+    "name": "Precipitation Corrected",
+    "source": "MERRA2",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "mm"
+  },
+  "PRECTOTCORR_SUM": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The bias corrected sum of total precipitation at the surface of the earth.",
+    "inputs": "",
+    "name": "Precipitation Corrected Sum",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "mm"
+  },
+  "PS": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average of surface pressure at the surface of the earth.",
+    "inputs": "",
+    "name": "Surface Pressure",
+    "source": "MERRA2",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "kPa"
+  },
+  "PSC": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "Atmospheric pressure associated with the MERRA-2 grid has been adjusted using the hypsometric equation to account for the difference between the elevation of an underlying surface site and the average elevation of the MERRA-2 grid cell.",
+    "inputs": "PS,T2M",
+    "name": "Corrected Atmospheric Pressure (Adjusted For Site Elevation)",
+    "source": "POWER",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "kPa"
+  },
+  "PW": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The total atmospheric water vapor contained in a vertical column of the atmosphere.",
+    "inputs": "",
+    "name": "Precipitable Water",
+    "source": "CERES",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "cm"
+  },
+  "QV10M": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The ratio of the mass of water vapor to the total mass of air at 10 meters (kg water/kg total air).",
+    "inputs": "",
+    "name": "Specific Humidity at 10 Meters",
+    "source": "MERRA2",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "g/kg"
+  },
+  "QV2M": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The ratio of the mass of water vapor to the total mass of air at 2 meters (kg water/kg total air).",
+    "inputs": "",
+    "name": "Specific Humidity at 2 Meters",
+    "source": "MERRA2",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "g/kg"
+  },
+  "RH2M": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The ratio of actual partial pressure of water vapor to the partial pressure at saturation, expressed in percent.",
+    "inputs": "",
+    "name": "Relative Humidity at 2 Meters",
+    "source": "MERRA2",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "%"
+  },
+  "RHOA": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The air density at surface of the earth.",
+    "inputs": "",
+    "name": "Surface Air Density",
+    "source": "MERRA2",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "kg m-3"
+  },
+  "SG_DAY_COZ_ZEN_AVG": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The average cosine of the angle between the sun and directly overhead during daylight hours. The determination of monthly averaged daylight average of hourly cosine solar zenith angles for each month is based (i.e. calculated for the monthly averaged day) on the monthly average day.",
+    "inputs": "",
+    "name": "Daylight Average Of Hourly Cosine Solar Zenith Angles for Climatological Month",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Degrees"
+  },
+  "SG_DAY_HOURS": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The number of hours where solar irradiance is present; determined if the solar zenith angle is between 0 and 90 degrees.",
+    "inputs": "",
+    "name": "Solar Geometry Day Hours",
+    "source": "POWER",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Hours"
+  },
+  "SG_DEC": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The angular distance of the sun north (positive) or south (negative) of the equator. Declination varies through the year from 23.45 degrees north to 23.45 degrees south and reaches the minimum/maximum at the southern/northern summer solstices. The determination of monthly averaged declination for each month is based on the monthly average day (see Methodology).",
+    "inputs": "",
+    "name": "Average Declination for Climatological Month",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Degrees"
+  },
+  "SG_HRZ_00": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The vertical angle of the sun above the horizon at 00 GMT.",
+    "inputs": "",
+    "name": "Average Hourly Solar Angles Relative To The Horizon for Climatological Month at 00 GMT",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Degrees"
+  },
+  "SG_HRZ_01": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The vertical angle of the sun above the horizon at 01 GMT.",
+    "inputs": "",
+    "name": "Average Hourly Solar Angles Relative To The Horizon for Climatological Month at 01 GMT",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Degrees"
+  },
+  "SG_HRZ_02": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The vertical angle of the sun above the horizon at 02 GMT.",
+    "inputs": "",
+    "name": "Average Hourly Solar Angles Relative To The Horizon for Climatological Month at 02 GMT",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Degrees"
+  },
+  "SG_HRZ_03": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The vertical angle of the sun above the horizon at 03 GMT.",
+    "inputs": "",
+    "name": "Average Hourly Solar Angles Relative To The Horizon for Climatological Month at 03 GMT",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Degrees"
+  },
+  "SG_HRZ_04": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The vertical angle of the sun above the horizon at 04 GMT.",
+    "inputs": "",
+    "name": "Average Hourly Solar Angles Relative To The Horizon for Climatological Month at 04 GMT",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Degrees"
+  },
+  "SG_HRZ_05": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The vertical angle of the sun above the horizon at 05 GMT.",
+    "inputs": "",
+    "name": "Average Hourly Solar Angles Relative To The Horizon for Climatological Month at 05 GMT",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Degrees"
+  },
+  "SG_HRZ_06": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The vertical angle of the sun above the horizon at 06 GMT.",
+    "inputs": "",
+    "name": "Average Hourly Solar Angles Relative To The Horizon for Climatological Month at 06 GMT",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Degrees"
+  },
+  "SG_HRZ_07": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The vertical angle of the sun above the horizon at 07 GMT.",
+    "inputs": "",
+    "name": "Average Hourly Solar Angles Relative To The Horizon for Climatological Month at 07 GMT",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Degrees"
+  },
+  "SG_HRZ_08": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The vertical angle of the sun above the horizon at 08 GMT.",
+    "inputs": "",
+    "name": "Average Hourly Solar Angles Relative To The Horizon for Climatological Month at 08 GMT",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Degrees"
+  },
+  "SG_HRZ_09": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The vertical angle of the sun above the horizon at 09 GMT.",
+    "inputs": "",
+    "name": "Average Hourly Solar Angles Relative To The Horizon for Climatological Month at 09 GMT",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Degrees"
+  },
+  "SG_HRZ_10": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The vertical angle of the sun above the horizon at 10 GMT.",
+    "inputs": "",
+    "name": "Average Hourly Solar Angles Relative To The Horizon for Climatological Month at 10 GMT",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Degrees"
+  },
+  "SG_HRZ_11": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The vertical angle of the sun above the horizon at 11 GMT.",
+    "inputs": "",
+    "name": "Average Hourly Solar Angles Relative To The Horizon for Climatological Month at 11 GMT",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Degrees"
+  },
+  "SG_HRZ_12": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The vertical angle of the sun above the horizon at 12 GMT.",
+    "inputs": "",
+    "name": "Average Hourly Solar Angles Relative To The Horizon for Climatological Month at 12 GMT",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Degrees"
+  },
+  "SG_HRZ_13": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The vertical angle of the sun above the horizon at 13 GMT.",
+    "inputs": "",
+    "name": "Average Hourly Solar Angles Relative To The Horizon for Climatological Month at 13 GMT",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Degrees"
+  },
+  "SG_HRZ_14": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The vertical angle of the sun above the horizon at 14 GMT.",
+    "inputs": "",
+    "name": "Average Hourly Solar Angles Relative To The Horizon for Climatological Month at 14 GMT",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Degrees"
+  },
+  "SG_HRZ_15": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The vertical angle of the sun above the horizon at 15 GMT.",
+    "inputs": "",
+    "name": "Average Hourly Solar Angles Relative To The Horizon for Climatological Month at 15 GMT",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Degrees"
+  },
+  "SG_HRZ_16": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The vertical angle of the sun above the horizon at 16 GMT.",
+    "inputs": "",
+    "name": "Average Hourly Solar Angles Relative To The Horizon for Climatological Month at 16 GMT",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Degrees"
+  },
+  "SG_HRZ_17": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The vertical angle of the sun above the horizon at 17 GMT.",
+    "inputs": "",
+    "name": "Average Hourly Solar Angles Relative To The Horizon for Climatological Month at 17 GMT",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Degrees"
+  },
+  "SG_HRZ_18": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The vertical angle of the sun above the horizon at 18 GMT.",
+    "inputs": "",
+    "name": "Average Hourly Solar Angles Relative To The Horizon for Climatological Month at 18 GMT",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Degrees"
+  },
+  "SG_HRZ_19": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The vertical angle of the sun above the horizon at 19 GMT.",
+    "inputs": "",
+    "name": "Average Hourly Solar Angles Relative To The Horizon for Climatological Month at 19 GMT",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Degrees"
+  },
+  "SG_HRZ_20": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The vertical angle of the sun above the horizon at 20 GMT.",
+    "inputs": "",
+    "name": "Average Hourly Solar Angles Relative To The Horizon for Climatological Month at 20 GMT",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Degrees"
+  },
+  "SG_HRZ_21": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The vertical angle of the sun above the horizon at 21 GMT.",
+    "inputs": "",
+    "name": "Average Hourly Solar Angles Relative To The Horizon for Climatological Month at 21 GMT",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Degrees"
+  },
+  "SG_HRZ_22": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The vertical angle of the sun above the horizon at 22 GMT.",
+    "inputs": "",
+    "name": "Average Hourly Solar Angles Relative To The Horizon for Climatological Month at 22 GMT",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Degrees"
+  },
+  "SG_HRZ_23": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The vertical angle of the sun above the horizon at 23 GMT.",
+    "inputs": "",
+    "name": "Average Hourly Solar Angles Relative To The Horizon for Climatological Month at 23 GMT",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Degrees"
+  },
+  "SG_HRZ_HR": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The vertical angle of the sun above the horizon at GMT Times. The determination of monthly averaged maximum solar angle relative to the horizon for each month is based on the monthly average day (See Methodology).",
+    "inputs": "",
+    "name": "Average Hourly Solar Angles Relative To The Horizon for Climatological Month",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Degrees"
+  },
+  "SG_HRZ_MAX": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The maximum vertical angle of the sun above the horizon. The determination of monthly averaged maximum solar angle relative to the horizon for each month is based on the monthly average day (See Methodology).",
+    "inputs": "",
+    "name": "Maximum Solar Angle Relative To The Horizon for Climatological Month",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Degrees"
+  },
+  "SG_HR_SET_ANG": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The angle that the earth has rotated between the time of solar noon and sunset. Note that the earth rotates 15 degrees with respect to the sun each hour. The determination of monthly averaged sunset hour angle for each month is based on the monthly average day (See Methodology).",
+    "inputs": "",
+    "name": "Average Sunset Hour Angle for Climatological Month",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Degrees"
+  },
+  "SG_MID_COZ_ZEN_ANG": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "Approximate monthly average ratio of horizontal plane solar beam radiation to direct normal radiation. The determination of monthly averaged cosine solar zenith angle at mid-time between sunrise and solar noon for each month is based on the monthly average day (see Methodology).",
+    "inputs": "",
+    "name": "Average Cosine Solar Zenith Angle At Mid-Time Between Sunrise And Solar Noon for Climatological Month",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Degrees"
+  },
+  "SG_NOON": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The time of solar noon.",
+    "inputs": "",
+    "name": "Average Solar Noon Time for Climatological Month",
+    "source": "POWER",
+    "temporal": [
+      "DAILY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Hour"
+  },
+  "SG_SAA": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The angle of the vector from the earth point to the suns position.",
+    "inputs": "",
+    "name": "Solar Azimuth Angle",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Degrees"
+  },
+  "SG_SAA_00": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The angle of the vector from the earth point to the suns position at 00 GMT.",
+    "inputs": "",
+    "name": "Average Solar Azimuth Angle for Climatological Month at 00 GMT",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Degrees"
+  },
+  "SG_SAA_01": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The angle of the vector from the earth point to the suns position at 01 GMT.",
+    "inputs": "",
+    "name": "Average Solar Azimuth Angle for Climatological Month at 01 GMT",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Degrees"
+  },
+  "SG_SAA_02": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The angle of the vector from the earth point to the suns position at 02 GMT.",
+    "inputs": "",
+    "name": "Average Solar Azimuth Angle for Climatological Month at 02 GMT",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Degrees"
+  },
+  "SG_SAA_03": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The angle of the vector from the earth point to the suns position at 03 GMT.",
+    "inputs": "",
+    "name": "Average Solar Azimuth Angle for Climatological Month at 03 GMT",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Degrees"
+  },
+  "SG_SAA_04": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The angle of the vector from the earth point to the suns position at 04 GMT.",
+    "inputs": "",
+    "name": "Average Solar Azimuth Angle for Climatological Month at 04 GMT",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Degrees"
+  },
+  "SG_SAA_05": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The angle of the vector from the earth point to the suns position at 05 GMT.",
+    "inputs": "",
+    "name": "Average Solar Azimuth Angle for Climatological Month at 05 GMT",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Degrees"
+  },
+  "SG_SAA_06": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The angle of the vector from the earth point to the suns position at 06 GMT.",
+    "inputs": "",
+    "name": "Average Solar Azimuth Angle for Climatological Month at 06 GMT",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Degrees"
+  },
+  "SG_SAA_07": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The angle of the vector from the earth point to the suns position at 07 GMT.",
+    "inputs": "",
+    "name": "Average Solar Azimuth Angle for Climatological Month at 07 GMT",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Degrees"
+  },
+  "SG_SAA_08": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The angle of the vector from the earth point to the suns position at 08 GMT.",
+    "inputs": "",
+    "name": "Average Solar Azimuth Angle for Climatological Month at 08 GMT",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Degrees"
+  },
+  "SG_SAA_09": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The angle of the vector from the earth point to the suns position at 09 GMT.",
+    "inputs": "",
+    "name": "Average Solar Azimuth Angle for Climatological Month at 09 GMT",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Degrees"
+  },
+  "SG_SAA_10": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The angle of the vector from the earth point to the suns position at 10 GMT.",
+    "inputs": "",
+    "name": "Average Solar Azimuth Angle for Climatological Month at 10 GMT",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Degrees"
+  },
+  "SG_SAA_11": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The angle of the vector from the earth point to the suns position at 11 GMT.",
+    "inputs": "",
+    "name": "Average Solar Azimuth Angle for Climatological Month at 11 GMT",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Degrees"
+  },
+  "SG_SAA_12": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The angle of the vector from the earth point to the suns position at 12 GMT.",
+    "inputs": "",
+    "name": "Average Solar Azimuth Angle for Climatological Month at 12 GMT",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Degrees"
+  },
+  "SG_SAA_13": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The angle of the vector from the earth point to the suns position at 13 GMT.",
+    "inputs": "",
+    "name": "Average Solar Azimuth Angle for Climatological Month at 13 GMT",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Degrees"
+  },
+  "SG_SAA_14": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The angle of the vector from the earth point to the suns position at 14 GMT.",
+    "inputs": "",
+    "name": "Average Solar Azimuth Angle for Climatological Month at 14 GMT",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Degrees"
+  },
+  "SG_SAA_15": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The angle of the vector from the earth point to the suns position at 15 GMT.",
+    "inputs": "",
+    "name": "Average Solar Azimuth Angle for Climatological Month at 15 GMT",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Degrees"
+  },
+  "SG_SAA_16": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The angle of the vector from the earth point to the suns position at 16 GMT.",
+    "inputs": "",
+    "name": "Average Solar Azimuth Angle for Climatological Month at 16 GMT",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Degrees"
+  },
+  "SG_SAA_17": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The angle of the vector from the earth point to the suns position at 17 GMT.",
+    "inputs": "",
+    "name": "Average Solar Azimuth Angle for Climatological Month at 17 GMT",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Degrees"
+  },
+  "SG_SAA_18": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The angle of the vector from the earth point to the suns position at 18 GMT.",
+    "inputs": "",
+    "name": "Average Solar Azimuth Angle for Climatological Month at 18 GMT",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Degrees"
+  },
+  "SG_SAA_19": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The angle of the vector from the earth point to the suns position at 19 GMT.",
+    "inputs": "",
+    "name": "Average Solar Azimuth Angle for Climatological Month at 19 GMT",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Degrees"
+  },
+  "SG_SAA_20": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The angle of the vector from the earth point to the suns position at 20 GMT.",
+    "inputs": "",
+    "name": "Average Solar Azimuth Angle for Climatological Month at 20 GMT",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Degrees"
+  },
+  "SG_SAA_21": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The angle of the vector from the earth point to the suns position at 21 GMT.",
+    "inputs": "",
+    "name": "Average Solar Azimuth Angle for Climatological Month at 21 GMT",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Degrees"
+  },
+  "SG_SAA_22": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The angle of the vector from the earth point to the suns position at 22 GMT.",
+    "inputs": "",
+    "name": "Average Solar Azimuth Angle for Climatological Month at 22 GMT",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Degrees"
+  },
+  "SG_SAA_23": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The angle of the vector from the earth point to the suns position at 23 GMT.",
+    "inputs": "",
+    "name": "Average Solar Azimuth Angle for Climatological Month at 23 GMT",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Degrees"
+  },
+  "SG_SAA_HR": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The angle of the vector from the earth point to the suns position at GMT Times.",
+    "inputs": "",
+    "name": "Average Solar Azimuth Angle for Climatological Month",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Degrees"
+  },
+  "SG_SZA": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The angle between the geodetic zenith vector and a vector from the earth point to the sun integrated over the period.",
+    "inputs": "",
+    "name": "Solar Zenith Angle",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Degrees"
+  },
+  "SI_EF_TILTED_SURFACE": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "Solar Irradiance incident on an equator facing surface tilted at an angle equal to the latitude of the location and plus, minus 15 degrees of the latitude. The climatology values are monthly averaged values over the time period given in the header record.",
+    "inputs": "ALLSKY_SFC_SW_DWN,ALLSKY_SFC_SW_DIFF,ALLSKY_SRF_ALB",
+    "name": "Solar Irradiance for Equator Facing Tilted Surfaces (Set of Surfaces)",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "SI_EF_TILTED_SURFACE_HORIZONTAL": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "Solar Irradiance incident on an equator facing surface tilted at a 0 degree angle (horizontal plane).",
+    "inputs": "",
+    "name": "Solar Irradiance for Equator Facing Horizontal Surface",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "SI_EF_TILTED_SURFACE_LATITUDE": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "Solar Irradiance incident on an equator facing surface tilted at the latitude angle.",
+    "inputs": "",
+    "name": "Solar Irradiance for Equator Facing Latitude Tilt",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "SI_EF_TILTED_SURFACE_LAT_MINUS15": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "Solar Irradiance incident on an equator facing surface tilted at the latitude minus 15.",
+    "inputs": "",
+    "name": "Solar Irradiance for Equator Facing Latitude Minus 15 Tilt",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "SI_EF_TILTED_SURFACE_LAT_PLUS15": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "Solar Irradiance incident on an equator facing surface tilted at the latitude plus 15.",
+    "inputs": "",
+    "name": "Solar Irradiance for Equator Facing Latitude Plus 15 Tilt",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "SI_EF_TILTED_SURFACE_OPTIMAL": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "An equator facing surface tilted at the optimum angle receives the optimum, or maximum, solar irradiance. The monthly climatology values are the average for each month over the time period given in the header section of the data file.",
+    "inputs": "",
+    "name": "Solar Irradiance Optimal",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "SI_EF_TILTED_SURFACE_OPTIMAL_ANG": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The optimum, or maximum, solar irradiance incident on an equator facing surface is obtained with the surface tilted at the optimal angle. The monthly climatology values are the average for each month over the time period given in the header section of the data file.",
+    "inputs": "",
+    "name": "Solar Irradiance Optimal Angle",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Degrees"
+  },
+  "SI_EF_TILTED_SURFACE_OPTIMAL_ANG_ORT": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "The north/south direction of the tilted surface.",
+    "inputs": "",
+    "name": "Solar Irradiance Tilted Surface Orientation",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "N/S Orientation"
+  },
+  "SI_EF_TILTED_SURFACE_TRACKER": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "Solar Irradiance incident where the panel surface tracks the sun continuously.",
+    "inputs": "",
+    "name": "Solar Irradiance Irradiance Tracking the Sun",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "SI_EF_TILTED_SURFACE_VERTICAL": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "Solar Irradiance incident on an equator facing surface tilted at a 90 degree angle (vertical surface).",
+    "inputs": "",
+    "name": "Solar Irradiance for Equator Facing Vertical Surface",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "SLP": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The sea level pressure at the surface of the earth.",
+    "inputs": "",
+    "name": "Sea Level Pressure",
+    "source": "MERRA2",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "kPa"
+  },
+  "SNODP": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The snow depth on land at surface of the earth.",
+    "inputs": "",
+    "name": "Snow Depth",
+    "source": "MERRA2",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "cm"
+  },
+  "SOLAR_DEFICITS_BLW_CONSEC_01": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The solar irradiance deficit over a consecutive 1-day period in a given month is the difference between the climatological averaged monthly value over the p-day period and the minimum of the climatological averaged values over the same p-day period in the given month. The monthly average for the p-day period is calculated as a multiyear average over the climatological period given in the header section of the data file.",
+    "inputs": "",
+    "name": "Solar Irradiance Deficit Over A Consecutive 1-day Period",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "SOLAR_DEFICITS_BLW_CONSEC_03": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The solar irradiance deficit over a consecutive 3-day period in a given month is the difference between the climatological averaged monthly value over the p-day period and the minimum of the climatological averaged values over the same p-day period in the given month. The monthly average for the p-day period is calculated as a multiyear average over the climatological period given in the header section of the data file.",
+    "inputs": "",
+    "name": "Solar Irradiance Deficit Over A Consecutive 3-day Period",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "SOLAR_DEFICITS_BLW_CONSEC_07": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The solar irradiance deficit over a consecutive 7-day period in a given month is the difference between the climatological averaged monthly value over the p-day period and the minimum of the climatological averaged values over the same p-day period in the given month. The monthly average for the p-day period is calculated as a multiyear average over the climatological period given in the header section of the data file.",
+    "inputs": "",
+    "name": "Solar Irradiance Deficit Over A Consecutive 7-day Period",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "SOLAR_DEFICITS_BLW_CONSEC_14": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The solar irradiance deficit over a consecutive 14-day period in a given month is the difference between the climatological averaged monthly value over the p-day period and the minimum of the climatological averaged values over the same p-day period in the given month. The monthly average for the p-day period is calculated as a multiyear average over the climatological period given in the header section of the data file.",
+    "inputs": "",
+    "name": "Solar Irradiance Deficit Over A Consecutive 14-day Period",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "SOLAR_DEFICITS_BLW_CONSEC_21": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The solar irradiance deficit over a consecutive 21-day period in a given month is the difference between the climatological averaged monthly value over the p-day period and the minimum of the climatological averaged values over the same p-day period in the given month. The monthly average for the p-day period is calculated as a multiyear average over the climatological period given in the header section of the data file.",
+    "inputs": "",
+    "name": "Solar Irradiance Deficit Over A Consecutive 21-day Period",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "SOLAR_DEFICITS_BLW_CONSEC_MONTH": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The solar irradiance deficit over a month period in a given month is the difference between the climatological averaged monthly value over the p-day period and the minimum of the climatological averaged values over the same p-day period in the given month. The monthly average for the p-day period is calculated as a multiyear average over the climatological period given in the header section of the data file.",
+    "inputs": "",
+    "name": "Solar Irradiance Deficit Over A Month Period",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "SRF_ALB_ADJ": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The adjusted all sky rate of reflectivity of the earth's surface; the ratio of the solar energy reflected by the surface of the earth compared to the total solar energy incident reaching the surface of the earth.",
+    "inputs": "",
+    "name": "Surface Albedo Adjusted",
+    "source": "CERES",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "dimensionless"
+  },
+  "SZA": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The angle between the geodetic zenith vector and a vector from the earth point to the sun integrated over the period.",
+    "inputs": "",
+    "name": "Solar Zenith Angle",
+    "source": "LOOKUP",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "Degrees"
+  },
+  "T10M": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The air (dry bulb) temperature at 10 meters above the surface of the earth.",
+    "inputs": "",
+    "name": "Temperature at 10 Meters",
+    "source": "MERRA2",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "C"
+  },
+  "T10M_MAX": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The maximum hourly air (dry bulb) temperature at 10 meters above the surface of the earth in the period of interest.",
+    "inputs": "",
+    "name": "Temperature at 10 Meters Maximum",
+    "source": "POWER",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "C"
+  },
+  "T10M_MAX_AVG": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average of the daily maximum air (dry bulb) temperature at 10 meters above the surface of the earth in the period of interest.",
+    "inputs": "",
+    "name": "Temperature at 10 Meters Maximum Average",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "C"
+  },
+  "T10M_MIN": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The minimum hourly air (dry bulb) temperature at 10 meters above the surface of the earth in the period of interest.",
+    "inputs": "",
+    "name": "Temperature at 10 Meters Minimum",
+    "source": "POWER",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "C"
+  },
+  "T10M_MIN_AVG": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average of the daily minimum air (dry bulb) temperature at 10 meters above the surface of the earth in the period of interest.",
+    "inputs": "",
+    "name": "Temperature at 10 Meters Minimum Average",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "C"
+  },
+  "T10M_RANGE": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The minimum and maximum hourly air (dry bulb) temperature range at 10 meters above the surface of the earth in the period of interest.",
+    "inputs": "",
+    "name": "Temperature at 10 Meters Range",
+    "source": "POWER",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "C"
+  },
+  "T10M_RANGE_AVG": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average minimum and maximum daily air (dry bulb) temperature average range at 10 meters above the surface of the earth in the period of interest.",
+    "inputs": "",
+    "name": "Temperature at 10 Meters Range Average",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "C"
+  },
+  "T2M": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average air (dry bulb) temperature at 2 meters above the surface of the earth.",
+    "inputs": "",
+    "name": "Temperature at 2 Meters",
+    "source": "MERRA2",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "C"
+  },
+  "T2MDEW": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The dew/frost point temperature at 2 meters above the surface of the earth.",
+    "inputs": "",
+    "name": "Dew/Frost Point at 2 Meters",
+    "source": "MERRA2",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "C"
+  },
+  "T2MWET": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The adiabatic saturation temperature which can be measured by a thermometer covered in a water-soaked cloth over which air is passed at 2 meters above the surface of the earth.",
+    "inputs": "",
+    "name": "Wet Bulb Temperature at 2 Meters",
+    "source": "MERRA2",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "C"
+  },
+  "T2M_MAX": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The maximum hourly air (dry bulb) temperature at 2 meters above the surface of the earth in the period of interest.",
+    "inputs": "",
+    "name": "Temperature at 2 Meters Maximum",
+    "source": "POWER",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "C"
+  },
+  "T2M_MAX_AVG": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average of the daily maximum air (dry bulb) temperature at 2 meters above the surface of the earth in the period of interest.",
+    "inputs": "",
+    "name": "Temperature at 2 Meters Maximum Average",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "C"
+  },
+  "T2M_MIN": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The minimum hourly air (dry bulb) temperature at 2 meters above the surface of the earth in the period of interest.",
+    "inputs": "",
+    "name": "Temperature at 2 Meters Minimum",
+    "source": "POWER",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "C"
+  },
+  "T2M_MIN_AVG": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average of the daily minimum air (dry bulb) temperature at 2 meters above the surface of the earth in the period of interest.",
+    "inputs": "",
+    "name": "Temperature at 2 Meters Minimum Average",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "C"
+  },
+  "T2M_RANGE": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The minimum and maximum hourly air (dry bulb) temperature range at 2 meters above the surface of the earth in the period of interest.",
+    "inputs": "",
+    "name": "Temperature at 2 Meters Range",
+    "source": "POWER",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "C"
+  },
+  "T2M_RANGE_AVG": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average minimum and maximum daily air (dry bulb) temperature average range at 2 meters above the surface of the earth in the period of interest.",
+    "inputs": "",
+    "name": "Temperature at 2 Meters Range Average",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "C"
+  },
+  "TO3": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The total amount of ozone in a column extending vertically from the earth's surface to the top of the atmosphere.",
+    "inputs": "",
+    "name": "Total Column Ozone",
+    "source": "MERRA2",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "Dobsons"
+  },
+  "TOA_SW_DNI": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The total solar irradiance incident (direct plus diffuse) on a horizontal plane where oriented to the sun's position at the top of the atmosphere (extraterrestrial radiation).",
+    "inputs": "",
+    "name": "Top-Of-Atmosphere Shortwave Direct Normal Radiation",
+    "source": "LOOKUP",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "TOA_SW_DNI_MAX": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The maximum total solar irradiance incident (direct plus diffuse) on a horizontal plane where oriented to the sun's position at the top of the atmosphere (extraterrestrial radiation).",
+    "inputs": "",
+    "name": "Top-Of-Atmosphere Shortwave Direct Normal Radiation Maximum",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "TOA_SW_DNI_MIN": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The minimum total solar irradiance incident (direct plus diffuse) on a horizontal plane where oriented to the sun's position at the top of the atmosphere (extraterrestrial radiation).",
+    "inputs": "",
+    "name": "Top-Of-Atmosphere Shortwave Direct Normal Radiation Minimum",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "TOA_SW_DNI_SD": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The standard deviation of total solar irradiance incident (direct plus diffuse) on a horizontal plane where oriented to the sun's position at the top of the atmosphere (extraterrestrial radiation).",
+    "inputs": "",
+    "name": "Top-Of-Atmosphere Shortwave Direct Normal Radiation Standard Deviation",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "TOA_SW_DWN": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The total solar irradiance incident (direct plus diffuse) on a horizontal plane at the top of the atmosphere (extraterrestrial radiation).",
+    "inputs": "",
+    "name": "Top-Of-Atmosphere Shortwave Downward Irradiance",
+    "source": "LOOKUP",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "TOA_SW_DWN_MAX": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The maximum total solar irradiance incident (direct plus diffuse) on a horizontal plane at the top of the atmosphere (extraterrestrial radiation).",
+    "inputs": "",
+    "name": "Top-Of-Atmosphere Shortwave Downward Irradiance Maximum",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "TOA_SW_DWN_MIN": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The minimum total solar irradiance incident (direct plus diffuse) on a horizontal plane at the top of the atmosphere (extraterrestrial radiation).",
+    "inputs": "",
+    "name": "Top-Of-Atmosphere Shortwave Downward Irradiance Minimum",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "TOA_SW_DWN_SD": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The standard deviation of total solar irradiance incident (direct plus diffuse) on a horizontal plane at the top of the atmosphere (extraterrestrial radiation).",
+    "inputs": "",
+    "name": "Top-Of-Atmosphere Shortwave Downward Irradiance Standard Deviation",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "kW-hr/m^2/day"
+  },
+  "TQV": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The total atmospheric water vapor contained in a vertical column of unit cross-sectional area extending from the surface to the top of the atmosphere.",
+    "inputs": "",
+    "name": "Total Column Precipitable Water",
+    "source": "MERRA2",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "kg m-2"
+  },
+  "TROPPB": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The tropopause pressure based on the blended estimate.",
+    "inputs": "",
+    "name": "Tropopause Pressure based on blended estimate.",
+    "source": "MERRA2",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "kPa"
+  },
+  "TROPQ": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The ratio of the mass of water vapor to the total mass of air at the tropopause pressure given by TROPPB (kg water/kg total air).",
+    "inputs": "",
+    "name": "Tropopause Specific Humidity using blended TROPP estimate.",
+    "source": "MERRA2",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "g/kg"
+  },
+  "TROPT": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The air (dry bulb) temperature at the tropopause pressure given by TROPPB.",
+    "inputs": "",
+    "name": "Tropopause Temperature using blended TROPP estimate.",
+    "source": "MERRA2",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "C"
+  },
+  "TS": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average temperature at the earth's surface.",
+    "inputs": "",
+    "name": "Earth Skin Temperature",
+    "source": "MERRA2",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "C"
+  },
+  "TS_ADJ": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The adjusted average temperature at the earth's surface.",
+    "inputs": "",
+    "name": "Earth Skin Temperature Adjusted",
+    "source": "CERES",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "C"
+  },
+  "TS_AMP": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "For each month the earth skin temperature amplitude is one half of the difference between monthly average minimum maximum or equivalently one half the skin temperature range.",
+    "inputs": "TS_RANGE",
+    "name": "Earth Skin Temperature Amplitude",
+    "source": "POWER",
+    "temporal": [
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "C"
+  },
+  "TS_MAX": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The maximum hourly earth skin temperature in the period of interest.",
+    "inputs": "",
+    "name": "Earth Skin Temperature Maximum",
+    "source": "POWER",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "C"
+  },
+  "TS_MAX_AVG": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average of the daily maximum earth skin temperature in the period of interest.",
+    "inputs": "",
+    "name": "Earth Skin Temperature Maximum Average",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "C"
+  },
+  "TS_MIN": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The minimum hourly earth skin temperature in the period of interest.",
+    "inputs": "",
+    "name": "Earth Skin Temperature Minimum",
+    "source": "POWER",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "C"
+  },
+  "TS_MIN_AVG": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average of the daily minimum earth skin temperature in the period of interest.",
+    "inputs": "",
+    "name": "Earth Skin Temperature Minimum Average",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "C"
+  },
+  "TS_RANGE": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The minimum and maximum hourly earth skin temperature range in the period of interest.",
+    "inputs": "",
+    "name": "Earth Skin Temperature Range",
+    "source": "POWER",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "C"
+  },
+  "TS_RANGE_AVG": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average minimum and maximum daily earth skin temperature range in the period of interest.",
+    "inputs": "",
+    "name": "Earth Skin Temperature Range Average",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "C"
+  },
+  "U10M": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The estimate of the eastward wind average speed for winds blowing 10 meters above the surface of the earth.",
+    "inputs": "",
+    "name": "Eastward Wind at 10 Meters",
+    "source": "MERRA2",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "m/s"
+  },
+  "U2M": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The estimate of the eastward wind average speed for winds blowing 2 meters above the surface of the earth.",
+    "inputs": "",
+    "name": "Eastward Wind at 2 Meters",
+    "source": "MERRA2",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "m/s"
+  },
+  "U50M": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The estimate of the eastward wind average speed for winds blowing 50 meters above the surface of the earth.",
+    "inputs": "",
+    "name": "Eastward Wind at 50 Meters",
+    "source": "MERRA2",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "m/s"
+  },
+  "V10M": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The estimate of the northward wind average speed for winds blowing 10 meters above the surface of the earth.",
+    "inputs": "",
+    "name": "Northward Wind at 10 Meters",
+    "source": "MERRA2",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "m/s"
+  },
+  "V2M": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The estimate of the northward wind average speed for winds blowing 2 meters above the surface of the earth.",
+    "inputs": "",
+    "name": "Northward Wind at 2 Meters",
+    "source": "MERRA2",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "m/s"
+  },
+  "V50M": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The estimate of the northward wind average speed for winds blowing 50 meters above the surface of the earth.",
+    "inputs": "",
+    "name": "Northward Wind at 50 Meters",
+    "source": "MERRA2",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "m/s"
+  },
+  "WD10M": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average of the wind direction at 10 meters above the surface of the earth.",
+    "inputs": "",
+    "name": "Wind Direction at 10 Meters",
+    "source": "POWER",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "Degrees"
+  },
+  "WD2M": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average of the wind direction at 2 meters above the surface of the earth.",
+    "inputs": "",
+    "name": "Wind Direction at 2 Meters",
+    "source": "POWER",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "Degrees"
+  },
+  "WD50M": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average of the wind direction at 50 meters above the surface of the earth.",
+    "inputs": "",
+    "name": "Wind Direction at 50 Meters",
+    "source": "POWER",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "Degrees"
+  },
+  "WS10M": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average of wind speed at 10 meters above the surface of the earth.",
+    "inputs": "",
+    "name": "Wind Speed at 10 Meters",
+    "source": "POWER",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "m/s"
+  },
+  "WS10M_MAX": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The maximum hourly wind speed at 10 meters above the surface of the earth.",
+    "inputs": "",
+    "name": "Wind Speed at 10 Meters Maximum",
+    "source": "POWER",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "m/s"
+  },
+  "WS10M_MAX_AVG": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average of the maximum daily wind speed at 10 meters above the surface of the earth.",
+    "inputs": "",
+    "name": "Wind Speed at 10 Meters Maximum Average",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "m/s"
+  },
+  "WS10M_MIN": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The minimum hourly wind speed at 10 meters above the surface of the earth.",
+    "inputs": "",
+    "name": "Wind Speed at 10 Meters Minimum",
+    "source": "POWER",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "m/s"
+  },
+  "WS10M_MIN_AVG": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average of the minimum daily wind speed at 10 meters above the surface of the earth.",
+    "inputs": "",
+    "name": "Wind Speed at 10 Meters Minimum Average",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "m/s"
+  },
+  "WS10M_RANGE": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The minimum and maximum hourly wind speed range at 10 meters above the surface of the earth.",
+    "inputs": "",
+    "name": "Wind Speed at 10 Meters Range",
+    "source": "POWER",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "m/s"
+  },
+  "WS10M_RANGE_AVG": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average minimum and maximum daily wind speed range at 10 meters above the surface of the earth.",
+    "inputs": "",
+    "name": "Wind Speed at 10 Meters Range Average",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "m/s"
+  },
+  "WS2M": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average of wind speed at 2 meters above the surface of the earth.",
+    "inputs": "",
+    "name": "Wind Speed at 2 Meters",
+    "source": "POWER",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "m/s"
+  },
+  "WS2M_MAX": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The maximum hourly wind speed at 2 meters above the surface of the earth.",
+    "inputs": "",
+    "name": "Wind Speed at 2 Meters Maximum",
+    "source": "POWER",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "m/s"
+  },
+  "WS2M_MAX_AVG": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average of the maximum daily wind speed at 2 meters above the surface of the earth.",
+    "inputs": "",
+    "name": "Wind Speed at 2 Meters Maximum Average",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "m/s"
+  },
+  "WS2M_MIN": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The minimum hourly wind speed at 2 meters above the surface of the earth.",
+    "inputs": "",
+    "name": "Wind Speed at 2 Meters Minimum",
+    "source": "POWER",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "m/s"
+  },
+  "WS2M_MIN_AVG": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average of the minimum daily wind speed at 2 meters above the surface of the earth.",
+    "inputs": "",
+    "name": "Wind Speed at 2 Meters Minimum Average",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "m/s"
+  },
+  "WS2M_RANGE": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The minimum and maximum hourly wind speed range at 2 meters above the surface of the earth.",
+    "inputs": "",
+    "name": "Wind Speed at 2 Meters Range",
+    "source": "POWER",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "m/s"
+  },
+  "WS2M_RANGE_AVG": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average minimum and maximum daily wind speed range at 2 meters above the surface of the earth.",
+    "inputs": "",
+    "name": "Wind Speed at 2 Meters Range Average",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "m/s"
+  },
+  "WS50M": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average of wind speed at 50 meters above the surface of the earth.",
+    "inputs": "",
+    "name": "Wind Speed at 50 Meters",
+    "source": "POWER",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "m/s"
+  },
+  "WS50M_MAX": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The maximum hourly wind speed at 50 meters above the surface of the earth.",
+    "inputs": "",
+    "name": "Wind Speed at 50 Meters Maximum",
+    "source": "POWER",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "m/s"
+  },
+  "WS50M_MAX_AVG": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average of the maximum daily wind speed at 50 meters above the surface of the earth.",
+    "inputs": "",
+    "name": "Wind Speed at 50 Meters Maximum Average",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "m/s"
+  },
+  "WS50M_MIN": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The minimum hourly wind speed at 50 meters above the surface of the earth.",
+    "inputs": "",
+    "name": "Wind Speed at 50 Meters Minimum",
+    "source": "POWER",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "m/s"
+  },
+  "WS50M_MIN_AVG": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average of the minimum daily wind speed at 50 meters above the surface of the earth.",
+    "inputs": "",
+    "name": "Wind Speed at 50 Meters Minimum Average",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "m/s"
+  },
+  "WS50M_RANGE": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The minimum and maximum hourly wind speed range at 50 meters above the surface of the earth.",
+    "inputs": "",
+    "name": "Wind Speed at 50 Meters Range",
+    "source": "POWER",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "m/s"
+  },
+  "WS50M_RANGE_AVG": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average minimum and maximum daily wind speed range at 50 meters above the surface of the earth.",
+    "inputs": "",
+    "name": "Wind Speed at 50 Meters Range Average",
+    "source": "POWER",
+    "temporal": [
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "m/s"
+  },
+  "WSC": {
+    "calculated": true,
+    "community": "RE",
+    "definition": "Wind Speed associated with the MERRA-2 grid has been adjusted based upon the elevation and underlying surface roughness.",
+    "inputs": "WS10M,WS50M",
+    "name": "Corrected Wind Speed (Adjusted For Elevation)",
+    "source": "POWER",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "m/s"
+  },
+  "Z0M": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The height above the displacement plane at which the mean wind becomes zero when extrapolating the logarithmic wind speed profile downward through the surface layer.",
+    "inputs": "",
+    "name": "Surface Roughness",
+    "source": "MERRA2",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "METEOROLOGY",
+    "units": "m"
+  },
+  "ZENITH_LUMINANCE": {
+    "calculated": false,
+    "community": "RE",
+    "definition": "The average amount of luminance at the sky's zenith.",
+    "inputs": "",
+    "name": "Zenith luminance",
+    "source": "POWER",
+    "temporal": [
+      "DAILY",
+      "MONTHLY",
+      "CLIMATOLOGY"
+    ],
+    "type": "RADIATION",
+    "units": "cd/m^2"
+  }
+}
