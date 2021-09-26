@@ -1,5 +1,6 @@
 import 'package:entropy_sunshine/services/request_nasa_power.dart';
 import 'package:flutter/material.dart';
+import 'package:syncfusion_flutter_charts/charts.dart';
 
 class Home extends StatefulWidget {
 
@@ -11,7 +12,7 @@ class _HomeState extends State<Home> {
 
   RequestNASAPower request = RequestNASAPower();
   bool gotData = false;
-  List data = List.empty();
+  List<ChartSeries> data = List.empty();
 
   Future<void> collectData() async {
     data = await request.getData(
@@ -37,48 +38,64 @@ class _HomeState extends State<Home> {
       body: SafeArea(
         child: Column(
           children: [
-            Container(
-              margin: new EdgeInsets.all(20),
-              child: RawMaterialButton(
-                onPressed: () {},
-                fillColor: Color(0xff7c8083),
-                elevation: 10,
-                padding: const EdgeInsets.symmetric(vertical: 15, horizontal: 10),
-                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
-                child: Column(
-                  children: [
-                    Row(
-                      children: [
-                        Icon(
-                          Icons.location_on,
-                          color: Colors.white,
-                          size: 25,
-                        ),
-                        SizedBox(width: 10,),
-                        Text(
-                          'Location',
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 25
-                          ),
-                        )
-                      ],
-                    ),
-                    Text(
-                      'Egypt, Cairo',
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 30,
-                        fontWeight: FontWeight.bold
-                      ),
-                    )
-                  ],
+            Row(
+              children: [
+                IconButton(
+                  onPressed: () {},
+                  icon: Icon(Icons.menu_rounded),
+                  iconSize: 60,
                 ),
-              ),
+                Expanded(
+                  child: Container(
+                    margin: new EdgeInsets.all(20),
+                    child: RawMaterialButton(
+                      onPressed: () {},
+                      fillColor: Color(0xff7c8083),
+                      elevation: 10,
+                      padding: const EdgeInsets.symmetric(vertical: 15, horizontal: 10),
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
+                      child: Column(
+                        children: [
+                          Row(
+                            children: [
+                              Icon(
+                                Icons.location_on,
+                                color: Colors.white,
+                                size: 25,
+                              ),
+                              SizedBox(width: 10,),
+                              Text(
+                                'Location',
+                                style: TextStyle(
+                                    color: Colors.white,
+                                    fontSize: 25
+                                ),
+                              )
+                            ],
+                          ),
+                          Text(
+                            'Egypt, Cairo',
+                            style: TextStyle(
+                                color: Colors.white,
+                                fontSize: 30,
+                                fontWeight: FontWeight.bold
+                            ),
+                          )
+                        ],
+                      ),
+                    ),
+                  ),
+                )
+              ]
             ),
             Expanded(
-              child: gotData ? Container() : Container(),
-            )
+              // child: gotData ? Container() : Container(),
+              child: SfCartesianChart(
+                primaryXAxis: CategoryAxis(),
+                series: data
+              ),
+            ),
+            SizedBox(height: 200)
           ]
         ),
       ),

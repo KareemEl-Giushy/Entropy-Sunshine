@@ -1,5 +1,6 @@
 import 'dart:convert';
 import 'package:http/http.dart';
+import 'package:syncfusion_flutter_charts/charts.dart';
 
 class RequestNASAPower {
   String community = 're';
@@ -9,7 +10,7 @@ class RequestNASAPower {
   final urlMonthly = Uri.parse('https://power.larc.nasa.gov/api/temporal/monthly/point');
 
   // Future<List<charts.Series<String, num>>> getData(String temporal, Map<String, Map> params) async {
-  Future<List> getData(
+  Future<List<ChartSeries>> getData(
       {
         required String temporal,
         required double latitude,
@@ -19,7 +20,7 @@ class RequestNASAPower {
         required int end
       }) async {
 
-    List data = [];
+    List<ChartSeries> data = [];
     Map parameters = {};
 
     switch (temporal) {
@@ -46,13 +47,19 @@ class RequestNASAPower {
       String key = parameters.keys.toList()[i];
       parameters[key].removeWhere((key, value) => key == "ANN");
       List<String> subKeys = parameters[key].keys.toList();
-      print('$key: ${subKeys.map((e) => parameters[key][e])}');
+      // print('$key: ${subKeys.map((e) => parameters[key][e])}');
       List<Point> points = subKeys.map((e) => Point(
           name: e,
           // value: parameters[key][e]
           value: parameters[key][e] == -999 ? 0 : parameters[key][e]
       )).toList();
-      print(points);
+      
+      data.add(LineSeries<Point, String>(
+        dataSource: points,
+        xValueMapper: (Point point, _) => point.name,
+        yValueMapper: (Point point, _) => point.value
+      ));
+      
     }
     return data;
   }
