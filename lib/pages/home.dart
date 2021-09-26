@@ -16,6 +16,10 @@ class _HomeState extends State<Home> {
   List<ChartSeries> exactData = List.empty();
   List<ChartSeries> splineData = List.empty();
   TooltipBehavior _tooltipBehavior = TooltipBehavior(enable: true);
+  ZoomPanBehavior _zoomPanBehavior = ZoomPanBehavior(
+    enablePinching: true,
+    enablePanning: true,
+  );
 
   Future<void> collectData() async {
     data = await request.getData(
@@ -94,21 +98,6 @@ class _HomeState extends State<Home> {
                 )
               ]
             ),
-            // ListTile(
-            //   leading: IconButton(
-            //     onPressed: () {setState(() {toggleSpline = !toggleSpline;});},
-            //     icon: Icon(Icons.refresh_rounded, color: Colors.white),
-            //     iconSize: 40,
-            //   ),
-            //   title: Text(
-            //     'Title is Here',
-            //     style: TextStyle(
-            //       color: Colors.white30,
-            //       fontSize: 25
-            //     ),
-            //   ),
-            //
-            // ),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
@@ -129,13 +118,14 @@ class _HomeState extends State<Home> {
               ]
             ),
             Expanded(
-              // child: gotData ? Container() : Container(),
               child: SfCartesianChart(
                 primaryXAxis: CategoryAxis(),
                 series: toggleSpline ? splineData : exactData,
                 tooltipBehavior: _tooltipBehavior,
+                zoomPanBehavior: _zoomPanBehavior,
                 legend: Legend(
                   isVisible: true,
+                  position: LegendPosition.bottom,
                   overflowMode: LegendItemOverflowMode.wrap,
                   textStyle: TextStyle(
                     color: Color(0xff7c8083),
@@ -145,7 +135,6 @@ class _HomeState extends State<Home> {
                 ),
               ),
             ),
-            SizedBox(height: 100)
           ]
         ),
       ),
