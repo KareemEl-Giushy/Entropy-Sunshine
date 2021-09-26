@@ -29,7 +29,7 @@ dependencies:
   highlight_text: ^1.1.0
   avatar_glow: ^2.0.1
   google_maps_flutter: ^2.0.10
-#  draw_graph: ^1.0.0
+  syncfusion_flutter_charts: ^19.2.62
   charts_flutter:
     git:
       url: git://github.com/google/charts.git
