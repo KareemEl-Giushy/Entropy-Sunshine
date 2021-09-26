@@ -11,8 +11,11 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
 
   RequestNASAPower request = RequestNASAPower();
-  bool gotData = false;
-  List<ChartSeries> data = List.empty();
+  bool toggleSpline = true;
+  List<List<ChartSeries>> data = List.empty();
+  List<ChartSeries> exactData = List.empty();
+  List<ChartSeries> splineData = List.empty();
+  TooltipBehavior _tooltipBehavior = TooltipBehavior(enable: true);
 
   Future<void> collectData() async {
     data = await request.getData(
@@ -22,7 +25,10 @@ class _HomeState extends State<Home> {
         params: 'SI_EF_TILTED_SURFACE',
         start: 2018,
         end: 2019);
-    setState(() {gotData = true;});
+    setState(() {
+      exactData = data[0];
+      splineData = data[1];
+    });
   }
 
   @override
@@ -88,14 +94,58 @@ class _HomeState extends State<Home> {
                 )
               ]
             ),
+            // ListTile(
+            //   leading: IconButton(
+            //     onPressed: () {setState(() {toggleSpline = !toggleSpline;});},
+            //     icon: Icon(Icons.refresh_rounded, color: Colors.white),
+            //     iconSize: 40,
+            //   ),
+            //   title: Text(
+            //     'Title is Here',
+            //     style: TextStyle(
+            //       color: Colors.white30,
+            //       fontSize: 25
+            //     ),
+            //   ),
+            //
+            // ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              children: [
+                IconButton(
+                  onPressed: () {setState(() {toggleSpline = !toggleSpline;});},
+                  icon: Icon(Icons.refresh_rounded, color: Colors.white),
+                  iconSize: 30,
+                ),
+                Text(
+                  'Title is Here',
+                  style: TextStyle(
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 25
+                  ),
+                ),
+                SizedBox(width: 40)
+              ]
+            ),
             Expanded(
               // child: gotData ? Container() : Container(),
               child: SfCartesianChart(
                 primaryXAxis: CategoryAxis(),
-                series: data
+                series: toggleSpline ? splineData : exactData,
+                tooltipBehavior: _tooltipBehavior,
+                legend: Legend(
+                  isVisible: true,
+                  overflowMode: LegendItemOverflowMode.wrap,
+                  textStyle: TextStyle(
+                    color: Color(0xff7c8083),
+                    fontSize: 15,
+                    fontFamily: 'Georgia'
+                  )
+                ),
               ),
             ),
-            SizedBox(height: 200)
+            SizedBox(height: 100)
           ]
         ),
       ),

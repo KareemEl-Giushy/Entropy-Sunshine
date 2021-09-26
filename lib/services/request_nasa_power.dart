@@ -1,5 +1,6 @@
 import 'dart:convert';
 import 'package:http/http.dart';
+import 'package:flutter/material.dart';
 import 'package:syncfusion_flutter_charts/charts.dart';
 
 class RequestNASAPower {
@@ -8,9 +9,17 @@ class RequestNASAPower {
   String header = 'false';
   final urlDaily = Uri.parse('https://power.larc.nasa.gov/api/temporal/daily/point');
   final urlMonthly = Uri.parse('https://power.larc.nasa.gov/api/temporal/monthly/point');
+  final List<Color> colors = [
+    Colors.deepOrange,
+    Colors.pink,
+    Colors.blue,
+    Colors.amber,
+    Colors.green,
+    Colors.brown,
+  ];
 
   // Future<List<charts.Series<String, num>>> getData(String temporal, Map<String, Map> params) async {
-  Future<List<ChartSeries>> getData(
+  Future<List<List<ChartSeries>>> getData(
       {
         required String temporal,
         required double latitude,
@@ -20,7 +29,8 @@ class RequestNASAPower {
         required int end
       }) async {
 
-    List<ChartSeries> data = [];
+    List<ChartSeries> exactData = [];
+    List<ChartSeries> splineData = [];
     Map parameters = {};
 
     switch (temporal) {
@@ -43,7 +53,8 @@ class RequestNASAPower {
         parameters = jsonDecode(rawData.body)['properties']['parameter'];
       } break;
     }
-    for (int i = 0; i < parameters.keys.length - 1; i++) {
+    for (int i = 0; i < 5; i++) {
+
       String key = parameters.keys.toList()[i];
       parameters[key].removeWhere((key, value) => key == "ANN");
       List<String> subKeys = parameters[key].keys.toList();
@@ -54,14 +65,32 @@ class RequestNASAPower {
           value: parameters[key][e] == -999 ? 0 : parameters[key][e]
       )).toList();
       
-      data.add(LineSeries<Point, String>(
+      exactData.add(AreaSeries<Point, String>(
         dataSource: points,
+        name: key,
         xValueMapper: (Point point, _) => point.name,
-        yValueMapper: (Point point, _) => point.value
+        yValueMapper: (Point point, _) => point.value,
+        color: colors[i],
+        borderColor: colors[i],
+        borderWidth: 5,
+        borderDrawMode: BorderDrawMode.top,
+        opacity: 0.2,
+      ));
+
+      splineData.add(SplineAreaSeries<Point, String>(
+        dataSource: points,
+        name: key,
+        xValueMapper: (Point point, _) => point.name,
+        yValueMapper: (Point point, _) => point.value,
+        color: colors[i],
+        borderColor: colors[i],
+        borderWidth: 5,
+        borderDrawMode: BorderDrawMode.top,
+        opacity: 0.2,
       ));
       
     }
-    return data;
+    return [exactData, splineData];
   }
 }
 
