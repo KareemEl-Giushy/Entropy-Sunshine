@@ -1,6 +1,5 @@
 import 'package:entropy_sunshine/services/request_nasa_power.dart';
 import 'package:flutter/material.dart';
-import 'package:charts_flutter/flutter.dart' as charts;
 
 class Home extends StatefulWidget {
 
@@ -12,7 +11,7 @@ class _HomeState extends State<Home> {
 
   RequestNASAPower request = RequestNASAPower();
   bool gotData = false;
-  List<charts.Series<dynamic, String>> data = List<charts.Series<dynamic, String>>.empty();
+  List data = List.empty();
 
   Future<void> collectData() async {
     data = await request.getData(
@@ -78,29 +77,7 @@ class _HomeState extends State<Home> {
               ),
             ),
             Expanded(
-              child: gotData ? charts.OrdinalComboChart(
-                data,
-                animate: true,
-                animationDuration: Duration(milliseconds: 600),
-                behaviors: [
-                  charts.DatumLegend(
-                    horizontalFirst: false,
-                    desiredMaxRows: 3,
-                    entryTextStyle: charts.TextStyleSpec(
-                      color: charts.MaterialPalette.white
-                    )
-                  ),
-                  charts.ChartTitle(
-                    'Weeks',
-                    behaviorPosition: charts.BehaviorPosition.bottom
-                  ),
-                  charts.ChartTitle(
-                    'Values',
-                    behaviorPosition: charts.BehaviorPosition.start
-                  ),
-                ],
-                defaultRenderer: charts.LineRendererConfig(includePoints: true),
-              ) : Container(),
+              child: gotData ? Container() : Container(),
             )
           ]
         ),
